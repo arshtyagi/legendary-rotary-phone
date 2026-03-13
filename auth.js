@@ -66,24 +66,43 @@ async function loginToApollo(account) {
 
     logger.info('Waiting for post-login navigation', { accountId });
 
-    // Wait up to 3 min for redirect
-    await page.waitForURL(url => !url.includes('/login'), { timeout: 180_000 })
-      .catch(() => logger.warn('No redirect yet — checking for OTP'));
+    // Wait for either OTP page or home page
+    logger.info('Waiting for post-login page', { accountId });
+    await page.waitForURL(
+      url => !url.includes('/login') || url.includes('/ato/'),
+      { timeout: 180_000 }
+    ).catch(() => logger.warn('No redirect yet'));
 
     await sleep(1000);
     logger.info('Post-login URL', { url: page.url() });
 
-    // OTP check
-    const otpVisible = await page.isVisible('input[placeholder*="code" i], input[name*="otp" i], input[placeholder*="otp" i]').catch(() => false);
-    if (otpVisible) {
-      logger.info('OTP required — fetching from Gmail', { accountId });
+    // Handle OTP — check URL and visible input
+    const currentUrl = page.url();
+    const otpVisible = await page.isVisible('input[placeholder*="code" i], input[name*="otp" i], input[placeholder*="otp" i], input[type="tel"]').catch(() => false);
+
+    if (otpVisible || currentUrl.includes('/ato/') || currentUrl.includes('verify')) {
+      logger.info('OTP page detected — fetching from Gmail', { accountId, url: currentUrl });
       const otp = await waitForOtp(email);
       logger.info('OTP received — submitting', { accountId });
-      await page.fill('input[placeholder*="code" i], input[name*="otp" i], input[placeholder*="otp" i]', otp);
-      await page.click('button[type="submit"], button:has-text("Verify"), button:has-text("Confirm"), button:has-text("Submit")');
-      await sleep(2000);
-      await page.waitForURL(url => !url.includes('/login'), { timeout: 60_000 }).catch(() => {});
-      logger.info('OTP submitted', { accountId });
+
+      // Fill OTP
+      const otpSel = 'input[placeholder*="code" i], input[name*="otp" i], input[placeholder*="otp" i], input[type="tel"], input[inputmode="numeric"]';
+      await page.waitForSelector(otpSel, { timeout: 10_000 });
+      await page.fill(otpSel, otp);
+      await sleep(500);
+
+      // Submit
+      await page.click('button[type="submit"], button:has-text("Verify"), button:has-text("Confirm"), button:has-text("Submit"), button:has-text("Continue")');
+      logger.info('OTP submitted — waiting for redirect', { accountId });
+
+      // Wait for final redirect to home
+      await page.waitForURL(
+        url => !url.includes('/login') && !url.includes('/ato/') && !url.includes('verify'),
+        { timeout: 60_000 }
+      ).catch(() => logger.warn('Post-OTP redirect timeout'));
+
+      await sleep(1000);
+      logger.info('Post-OTP URL', { url: page.url() });
     }
 
     logger.info('Login complete', { url: page.url(), accountId });
