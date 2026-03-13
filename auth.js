@@ -53,16 +53,44 @@ async function loginToApollo(account) {
 
     // Click login — try multiple methods
     logger.info('Clicking Log In', { accountId });
+
+    // Method 1: JS click
     const clicked = await page.evaluate(() => {
       const btn = [...document.querySelectorAll('button')].find(b => b.innerText?.trim() === 'Log In');
       if (btn) { btn.click(); return true; }
       return false;
     });
+    logger.info('JS click result', { clicked });
+    await sleep(2000);
 
-    if (!clicked) {
+    // Method 2: Enter key on password field
+    if (page.url().includes('/login')) {
+      logger.info('Trying Enter key');
       await page.focus('input[type="password"]');
       await page.keyboard.press('Enter');
+      await sleep(2000);
     }
+
+    // Method 3: Coordinate click
+    if (page.url().includes('/login')) {
+      logger.info('Trying coordinate click');
+      const btn = await page.$('button:has-text("Log In")');
+      if (btn) {
+        const box = await btn.boundingBox();
+        if (box) await page.mouse.click(box.x + box.width / 2, box.y + box.height / 2);
+      }
+      await sleep(2000);
+    }
+
+    // Method 4: Tab to button
+    if (page.url().includes('/login')) {
+      logger.info('Trying Tab+Space');
+      await page.keyboard.press('Tab');
+      await page.keyboard.press('Space');
+      await sleep(2000);
+    }
+
+    logger.info('After click attempts', { url: page.url() });
 
     logger.info('Waiting for post-login navigation', { accountId });
 
