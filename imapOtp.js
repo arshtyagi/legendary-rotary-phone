@@ -104,7 +104,17 @@ async function fetchLatestOtp(apolloEmail, sinceDate) {
         }
 
         const otp = extractOtp(rawBody);
-        if (otp) return otp;
+        if (otp) {
+          // Archive the email so it doesn't accumulate
+          try {
+            await client.messageMove(uid, '[Gmail]/All Mail');
+            logger.info('OTP email archived', { uid });
+          } catch {
+            // Fallback: mark as read
+            await client.messageFlagsAdd(uid, ['\\Seen']).catch(() => {});
+          }
+          return otp;
+        }
       } catch (err) {
         logger.warn('Error parsing email', { uid, err: err.message });
       }
