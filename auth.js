@@ -36,44 +36,37 @@ async function loginToApollo(account) {
   page.on('framenavigated', f => { if (f === page.mainFrame()) logger.info('Nav', { url: f.url() }); });
 
   try {
+    // Step 1: Load login page
     logger.info('Loading login page', { accountId });
     await page.goto(`${APOLLO_BASE}/#/login`, { waitUntil: 'networkidle', timeout: 60_000 });
-    await sleep(1500);
+    await sleep(2000);
 
-    // Fill email
+    // Step 2: Fill form
     const emailSel = 'input[type="email"], input[name="email"], input[placeholder*="email" i]';
     await page.waitForSelector(emailSel, { timeout: 30_000 });
     await page.fill(emailSel, email);
     await sleep(300);
-
-    // Fill password
     await page.waitForSelector('input[type="password"]', { timeout: 10_000 });
     await page.fill('input[type="password"]', password);
     await sleep(300);
 
-    // Click login — try multiple methods
+    // Step 3: Click login — multiple methods
     logger.info('Clicking Log In', { accountId });
 
-    // Method 1: JS click
     const clicked = await page.evaluate(() => {
       const btn = [...document.querySelectorAll('button')].find(b => b.innerText?.trim() === 'Log In');
       if (btn) { btn.click(); return true; }
       return false;
     });
-    logger.info('JS click result', { clicked });
     await sleep(2000);
 
-    // Method 2: Enter key on password field
-    if (page.url().includes('/login')) {
-      logger.info('Trying Enter key');
+    if (page.url().includes('/login') && !page.url().includes('/ato/')) {
       await page.focus('input[type="password"]');
       await page.keyboard.press('Enter');
       await sleep(2000);
     }
 
-    // Method 3: Coordinate click
-    if (page.url().includes('/login')) {
-      logger.info('Trying coordinate click');
+    if (page.url().includes('/login') && !page.url().includes('/ato/')) {
       const btn = await page.$('button:has-text("Log In")');
       if (btn) {
         const box = await btn.boundingBox();
@@ -82,65 +75,64 @@ async function loginToApollo(account) {
       await sleep(2000);
     }
 
-    // Method 4: Tab to button
-    if (page.url().includes('/login')) {
-      logger.info('Trying Tab+Space');
-      await page.keyboard.press('Tab');
-      await page.keyboard.press('Space');
-      await sleep(2000);
+    logger.info('After click', { url: page.url(), clicked });
+
+    // Step 4: Wait up to 30s for OTP page or home page
+    logger.info('Waiting for OTP or home page', { accountId });
+    const startWait = Date.now();
+    while (Date.now() - startWait < 30_000) {
+      await sleep(1000);
+      const url = page.url();
+      if (url.includes('/ato/') || url.includes('verify')) {
+        logger.info('OTP page detected', { url });
+        break;
+      }
+      if (!url.includes('/login')) {
+        logger.info('Home page detected', { url });
+        break;
+      }
     }
 
-    logger.info('After click attempts', { url: page.url() });
+    const urlAfterWait = page.url();
+    logger.info('URL after wait', { url: urlAfterWait });
 
-    logger.info('Waiting for post-login navigation', { accountId });
-
-    // Wait for either OTP page or home page
-    logger.info('Waiting for post-login page', { accountId });
-    await page.waitForURL(
-      url => !url.includes('/login') || url.includes('/ato/'),
-      { timeout: 180_000 }
-    ).catch(() => logger.warn('No redirect yet'));
-
-    await sleep(1000);
-    logger.info('Post-login URL', { url: page.url() });
-
-    // Handle OTP — check URL and visible input
-    const currentUrl = page.url();
-    const otpVisible = await page.isVisible('input[placeholder*="code" i], input[name*="otp" i], input[placeholder*="otp" i], input[type="tel"]').catch(() => false);
-
-    if (otpVisible || currentUrl.includes('/ato/') || currentUrl.includes('verify')) {
-      logger.info('OTP page detected — fetching from Gmail', { accountId, url: currentUrl });
+    // Step 5: Handle OTP if needed
+    if (urlAfterWait.includes('/ato/') || urlAfterWait.includes('verify')) {
+      logger.info('OTP required — fetching from Gmail', { accountId });
       const otp = await waitForOtp(email);
       logger.info('OTP received — submitting', { accountId });
 
-      // Fill OTP
       const otpSel = 'input[placeholder*="code" i], input[name*="otp" i], input[placeholder*="otp" i], input[type="tel"], input[inputmode="numeric"]';
-      await page.waitForSelector(otpSel, { timeout: 10_000 });
+      await page.waitForSelector(otpSel, { timeout: 15_000 });
       await page.fill(otpSel, otp);
       await sleep(500);
-
-      // Submit
       await page.click('button[type="submit"], button:has-text("Verify"), button:has-text("Confirm"), button:has-text("Submit"), button:has-text("Continue")');
-      logger.info('OTP submitted — waiting for redirect', { accountId });
+      logger.info('OTP submitted — waiting for home page', { accountId });
 
-      // Wait for final redirect to home
+      // Wait for redirect to home
       await page.waitForURL(
         url => !url.includes('/login') && !url.includes('/ato/') && !url.includes('verify'),
         { timeout: 60_000 }
       ).catch(() => logger.warn('Post-OTP redirect timeout'));
 
-      await sleep(1000);
+      await sleep(2000);
       logger.info('Post-OTP URL', { url: page.url() });
     }
 
-    logger.info('Login complete', { url: page.url(), accountId });
+    // Step 6: Verify we are logged in
+    const finalUrl = page.url();
+    logger.info('Final login URL', { url: finalUrl, accountId });
 
-    // Extract cookies
+    if (finalUrl.includes('/login') && !finalUrl.includes('/ato/')) {
+      throw new Error('Login failed — still on login page after all attempts');
+    }
+
+    // Step 7: Extract cookies
     const browserCookies = await context.cookies();
     logger.info('Cookies extracted', { count: browserCookies.length });
     const cookieHeader = browserCookies.map(c => `${c.name}=${c.value}`).join('; ');
 
-    // Get CSRF token
+    // Step 8: Get CSRF token
     let csrfToken = null;
     try {
       const resp = await page.evaluate(async (base) => {
@@ -159,6 +151,7 @@ async function loginToApollo(account) {
       await jar.setCookie(`${c.name}=${c.value}; Domain=${c.domain}; Path=${c.path || '/'}`, APOLLO_BASE).catch(() => {});
     }
 
+    logger.info('✅ Login complete', { accountId, url: finalUrl });
     return {
       accountId,
       cookieHeader,
