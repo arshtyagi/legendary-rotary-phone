@@ -1,0 +1,774 @@
+2026-03-14 01:32:31.011 [info] Initialising session manager...
+2026-03-14 01:32:31.013 [info] SessionManager: loaded 1 account(s)
+2026-03-14 01:32:31.014 [info] Starting Apollo login {"accountId":"account_1"}
+2026-03-14 01:32:31.018 [info] Apollo API service listening on port 3000
+2026-03-14 01:32:31.691 [error] Login attempt failed {"accountId":"account_1","attempt":1,"err":"Network error during login: axios-cookiejar-support does not support for use with other http(s).Agent."}
+2026-03-14 01:32:36.693 [info] Starting Apollo login {"accountId":"account_1"}
+2026-03-14 01:32:37.349 [error] Login attempt failed {"accountId":"account_1","attempt":2,"err":"Network error during login: axios-cookiejar-support does not support for use with other http(s).Agent."}
+2026-03-14 01:32:47.350 [info] Starting Apollo login {"accountId":"account_1"}
+2026-03-14 01:32:47.922 [error] Login attempt failed {"accountId":"account_1","attempt":3,"err":"Network error during login: axios-cookiejar-support does not support for use with other http(s).Agent."}
+2026-03-14 01:32:47.923 [error] Initial login failed {"account":"account_1","err":"Network error during login: axios-cookiejar-support does not support for use with other http(s).Agent."}
+2026-03-14 01:32:47.925 [error] Unhandled rejection {"reason":"Error: Network error during login: axios-cookiejar-support does not support for use with other http(s).Agent."}
+2026-03-14 01:33:34.567 [info] SIGINT received — shutting down
+2026-03-14 01:34:40.976 [info] Initialising session manager...
+2026-03-14 01:34:40.978 [info] SessionManager: loaded 1 account(s)
+2026-03-14 01:34:40.979 [info] Starting Apollo login {"accountId":"account_1"}
+2026-03-14 01:34:41.004 [info] Apollo API service listening on port 3000
+2026-03-14 01:34:42.958 [warn] Cloudflare Turnstile detected — solving {"accountId":"account_1"}
+2026-03-14 01:34:42.959 [info] Requesting Turnstile solve {"pageUrl":"https://app.apollo.io/login"}
+2026-03-14 01:34:43.591 [info] CapSolver task created {"taskId":"a500a405-e2a2-453a-a9ea-107cad51c9f7"}
+2026-03-14 01:34:46.909 [error] Login attempt failed {"accountId":"account_1","attempt":1,"err":"CapSolver getTaskResult error [ERROR_CAPTCHA_SOLVE_FAILED]: Domain not authorized, error code:110200. Please check your websiteKey and websiteURL"}
+2026-03-14 01:34:51.911 [info] Starting Apollo login {"accountId":"account_1"}
+2026-03-14 01:34:53.055 [warn] Cloudflare Turnstile detected — solving {"accountId":"account_1"}
+2026-03-14 01:34:53.055 [info] Requesting Turnstile solve {"pageUrl":"https://app.apollo.io/login"}
+2026-03-14 01:34:53.612 [info] CapSolver task created {"taskId":"9558313f-bd16-4e9a-962e-33e90b4c6770"}
+2026-03-14 01:34:56.887 [error] Login attempt failed {"accountId":"account_1","attempt":2,"err":"CapSolver getTaskResult error [ERROR_CAPTCHA_SOLVE_FAILED]: Domain not authorized, error code:110200. Please check your websiteKey and websiteURL"}
+2026-03-14 01:34:58.727 [info] SIGINT received — shutting down
+2026-03-14 01:36:46.053 [info] Initialising session manager...
+2026-03-14 01:36:46.055 [info] SessionManager: loaded 1 account(s)
+2026-03-14 01:36:46.055 [info] Starting Apollo login {"accountId":"account_1"}
+2026-03-14 01:36:46.084 [info] Apollo API service listening on port 3000
+2026-03-14 01:36:47.814 [warn] Cloudflare Turnstile detected — solving {"accountId":"account_1"}
+2026-03-14 01:36:47.815 [info] Requesting Turnstile solve {"pageUrl":"https://app.apollo.io/login"}
+2026-03-14 01:36:48.378 [info] CapSolver task created {"taskId":"484f87b6-7d5d-487e-84c9-8f36a364a60d"}
+2026-03-14 01:36:51.691 [error] Login attempt failed {"accountId":"account_1","attempt":1,"err":"CapSolver getTaskResult error [ERROR_CAPTCHA_SOLVE_FAILED]: Domain not authorized, error code:110200. Please check your websiteKey and websiteURL"}
+2026-03-14 01:36:56.692 [info] Starting Apollo login {"accountId":"account_1"}
+2026-03-14 01:36:57.672 [warn] Cloudflare Turnstile detected — solving {"accountId":"account_1"}
+2026-03-14 01:36:57.672 [info] Requesting Turnstile solve {"pageUrl":"https://app.apollo.io/login"}
+2026-03-14 01:36:58.265 [info] CapSolver task created {"taskId":"aa4f58ee-e51b-4f47-a1a1-c1724da36775"}
+2026-03-14 01:37:01.544 [error] Login attempt failed {"accountId":"account_1","attempt":2,"err":"CapSolver getTaskResult error [ERROR_CAPTCHA_SOLVE_FAILED]: Domain not authorized, error code:110200. Please check your websiteKey and websiteURL"}
+2026-03-14 01:37:08.084 [info] SIGINT received — shutting down
+2026-03-14 01:42:06.890 [info] Initialising session manager...
+2026-03-14 01:42:06.892 [info] SessionManager: loaded 1 account(s)
+2026-03-14 01:42:06.893 [info] Starting Apollo login {"accountId":"account_1"}
+2026-03-14 01:42:06.923 [info] Apollo API service listening on port 3000
+2026-03-14 01:42:08.130 [warn] Could not find bundle-app JS URL in HTML
+2026-03-14 01:42:08.894 [warn] Turnstile challenge detected — solving {"accountId":"account_1"}
+2026-03-14 01:42:08.895 [info] Trying Turnstile sitekey {"key":"0x4AAAAAAA2OUu4yFDL9LSeZ"}
+2026-03-14 01:42:08.895 [info] Requesting Turnstile solve {"pageUrl":"https://app.apollo.io/"}
+2026-03-14 01:42:09.490 [info] CapSolver task created {"taskId":"742ea732-de0a-4c58-99a5-f5677193c32d"}
+2026-03-14 01:42:21.609 [info] CapSolver task solved
+2026-03-14 01:42:21.609 [info] Turnstile solved with key {"key":"0x4AAAAAAA2OUu4yFDL9LSeZ"}
+2026-03-14 01:42:21.787 [error] Login attempt failed {"accountId":"account_1","attempt":1,"err":"Request failed with status code 403"}
+2026-03-14 01:42:26.789 [info] Starting Apollo login {"accountId":"account_1"}
+2026-03-14 01:42:27.583 [warn] Could not find bundle-app JS URL in HTML
+2026-03-14 01:42:28.422 [warn] Turnstile challenge detected — solving {"accountId":"account_1"}
+2026-03-14 01:42:28.422 [info] Trying Turnstile sitekey {"key":"0x4AAAAAAA2OUu4yFDL9LSeZ"}
+2026-03-14 01:42:28.422 [info] Requesting Turnstile solve {"pageUrl":"https://app.apollo.io/"}
+2026-03-14 01:42:28.994 [info] CapSolver task created {"taskId":"acac70c7-be48-4dce-89ce-2fe4e98cff80"}
+2026-03-14 01:42:34.133 [info] CapSolver task solved
+2026-03-14 01:42:34.134 [info] Turnstile solved with key {"key":"0x4AAAAAAA2OUu4yFDL9LSeZ"}
+2026-03-14 01:42:34.232 [error] Login attempt failed {"accountId":"account_1","attempt":2,"err":"Request failed with status code 403"}
+2026-03-14 01:42:38.360 [info] SIGINT received — shutting down
+2026-03-14 01:47:18.606 [info] Initialising session manager...
+2026-03-14 01:47:18.608 [info] SessionManager: loaded 1 account(s)
+2026-03-14 01:47:18.608 [info] Starting Apollo login {"accountId":"account_1"}
+2026-03-14 01:47:18.609 [info] Requesting cf_clearance via CapSolver
+2026-03-14 01:47:18.634 [info] Apollo API service listening on port 3000
+2026-03-14 01:47:19.295 [error] Login attempt failed {"accountId":"account_1","attempt":1,"err":"Request failed with status code 400"}
+2026-03-14 01:47:24.297 [info] Starting Apollo login {"accountId":"account_1"}
+2026-03-14 01:47:24.298 [info] Requesting cf_clearance via CapSolver
+2026-03-14 01:47:24.890 [error] Login attempt failed {"accountId":"account_1","attempt":2,"err":"Request failed with status code 400"}
+2026-03-14 01:47:27.907 [info] SIGINT received — shutting down
+2026-03-14 01:53:35.343 [info] Initialising session manager...
+2026-03-14 01:53:35.345 [info] SessionManager: loaded 1 account(s)
+2026-03-14 01:53:35.345 [info] Starting Apollo login {"accountId":"account_1"}
+2026-03-14 01:53:35.346 [info] Requesting Cloudflare clearance via CapSolver
+2026-03-14 01:53:35.372 [info] Apollo API service listening on port 3000
+2026-03-14 01:53:37.335 [info] CapSolver CF task created {"taskId":"8390fc94-1991-4e81-990d-dc98cdfeb65f"}
+2026-03-14 01:53:42.906 [error] Login attempt failed {"accountId":"account_1","attempt":1,"err":"CapSolver error: Cloudflare challenge not found! the 'html' field is required"}
+2026-03-14 01:53:47.906 [info] Starting Apollo login {"accountId":"account_1"}
+2026-03-14 01:53:47.907 [info] Requesting Cloudflare clearance via CapSolver
+2026-03-14 01:53:51.966 [info] CapSolver CF task created {"taskId":"810638e2-e184-458b-b0c3-844754cf1e02"}
+2026-03-14 01:53:57.558 [error] Login attempt failed {"accountId":"account_1","attempt":2,"err":"CapSolver error: Cloudflare challenge not found! the 'html' field is required"}
+2026-03-14 01:54:07.561 [info] Starting Apollo login {"accountId":"account_1"}
+2026-03-14 01:54:07.562 [info] Requesting Cloudflare clearance via CapSolver
+2026-03-14 01:54:09.264 [info] CapSolver CF task created {"taskId":"ac27fabd-ef85-4b8c-850a-40f7a82da89d"}
+2026-03-14 01:54:16.083 [error] Login attempt failed {"accountId":"account_1","attempt":3,"err":"CapSolver error: Cloudflare challenge not found! the 'html' field is required"}
+2026-03-14 01:54:16.084 [error] Initial login failed {"account":"account_1","err":"CapSolver error: Cloudflare challenge not found! the 'html' field is required"}
+2026-03-14 01:54:16.084 [error] Unhandled rejection {"reason":"Error: CapSolver error: Cloudflare challenge not found! the 'html' field is required"}
+2026-03-14 01:54:18.804 [info] SIGINT received — shutting down
+2026-03-14 01:57:02.211 [info] Initialising session manager...
+2026-03-14 01:57:02.213 [info] SessionManager: loaded 1 account(s)
+2026-03-14 01:57:02.214 [info] Starting Apollo login {"accountId":"account_1"}
+2026-03-14 01:57:02.214 [info] Fetching CF challenge page via proxy
+2026-03-14 01:57:02.228 [info] Apollo API service listening on port 3000
+2026-03-14 01:57:05.562 [info] Challenge page fetched {"length":446113}
+2026-03-14 01:57:05.563 [info] Sending challenge HTML to CapSolver
+2026-03-14 01:57:07.247 [error] Login attempt failed {"accountId":"account_1","attempt":1,"err":"Request failed with status code 400"}
+2026-03-14 01:57:12.248 [info] Starting Apollo login {"accountId":"account_1"}
+2026-03-14 01:57:12.249 [info] Fetching CF challenge page via proxy
+2026-03-14 01:57:15.542 [info] Challenge page fetched {"length":446113}
+2026-03-14 01:57:15.542 [info] Sending challenge HTML to CapSolver
+2026-03-14 01:57:17.298 [error] Login attempt failed {"accountId":"account_1","attempt":2,"err":"Request failed with status code 400"}
+2026-03-14 01:57:18.975 [info] SIGINT received — shutting down
+2026-03-14 01:58:20.880 [info] Initialising session manager...
+2026-03-14 01:58:20.882 [info] SessionManager: loaded 1 account(s)
+2026-03-14 01:58:20.882 [info] Starting Apollo login {"accountId":"account_1"}
+2026-03-14 01:58:20.883 [info] Probing for CF challenge {"url":"https://app.apollo.io/api/v1/auth/login"}
+2026-03-14 01:58:20.896 [info] Apollo API service listening on port 3000
+2026-03-14 01:58:23.030 [info] Probe response {"url":"https://app.apollo.io/api/v1/auth/login","status":403,"length":9362,"hasCF":true}
+2026-03-14 01:58:23.031 [info] CF challenge HTML found {"url":"https://app.apollo.io/api/v1/auth/login","length":9362}
+2026-03-14 01:58:23.031 [info] Sending CF challenge to CapSolver {"htmlLength":9362}
+2026-03-14 01:58:23.597 [error] Login attempt failed {"accountId":"account_1","attempt":1,"err":"Request failed with status code 400"}
+2026-03-14 01:58:28.597 [info] Starting Apollo login {"accountId":"account_1"}
+2026-03-14 01:58:28.598 [info] Probing for CF challenge {"url":"https://app.apollo.io/api/v1/auth/login"}
+2026-03-14 01:58:32.140 [info] Probe response {"url":"https://app.apollo.io/api/v1/auth/login","status":403,"length":9362,"hasCF":true}
+2026-03-14 01:58:32.140 [info] CF challenge HTML found {"url":"https://app.apollo.io/api/v1/auth/login","length":9362}
+2026-03-14 01:58:32.141 [info] Sending CF challenge to CapSolver {"htmlLength":9362}
+2026-03-14 01:58:32.699 [error] Login attempt failed {"accountId":"account_1","attempt":2,"err":"Request failed with status code 400"}
+2026-03-14 01:58:37.120 [info] SIGINT received — shutting down
+2026-03-14 02:00:28.245 [info] Initialising session manager...
+2026-03-14 02:00:28.247 [info] SessionManager: loaded 1 account(s)
+2026-03-14 02:00:28.248 [info] Starting Apollo login {"accountId":"account_1"}
+2026-03-14 02:00:28.248 [info] Probing for CF challenge {"url":"https://app.apollo.io/api/v1/auth/login"}
+2026-03-14 02:00:28.262 [info] Apollo API service listening on port 3000
+2026-03-14 02:00:31.479 [info] Probe response {"url":"https://app.apollo.io/api/v1/auth/login","status":403,"length":9362,"hasCF":true}
+2026-03-14 02:00:31.480 [info] CF challenge HTML found {"url":"https://app.apollo.io/api/v1/auth/login","length":9362}
+2026-03-14 02:00:31.480 [info] Sending CF challenge to CapSolver {"htmlLength":9362}
+2026-03-14 02:00:31.800 [error] Login attempt failed {"accountId":"account_1","attempt":1,"err":"Request failed with status code 400","stack":"AxiosError: Request failed with status code 400\n    at settle (/Users/arshtyagi/Desktop/try/node_modules/axios/dist/node/axios.cjs:2304:7)\n    at IncomingMessage.handleStreamEnd (/Users/arshtyagi/Desktop/try/node_modules/axios/dist/node/axios.cjs:3772:13)\n    at IncomingMessage.emit (node:events:520:35)\n    at endReadableNT (node:internal/streams/readable:1701:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)\n    at Axios.request (/Users/arshtyagi/Desktop/try/node_modules/axios/dist/node/axios.cjs:5110:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async getCfClearance (/Users/arshtyagi/Desktop/try/auth.js:79:22)\n    at async loginToApollo (/Users/arshtyagi/Desktop/try/auth.js:173:38)\n    at async /Users/arshtyagi/Desktop/try/sessionManager.js:187:25"}
+2026-03-14 02:00:36.801 [info] Starting Apollo login {"accountId":"account_1"}
+2026-03-14 02:00:36.802 [info] Probing for CF challenge {"url":"https://app.apollo.io/api/v1/auth/login"}
+2026-03-14 02:00:39.153 [info] Probe response {"url":"https://app.apollo.io/api/v1/auth/login","status":403,"length":9340,"hasCF":true}
+2026-03-14 02:00:39.153 [info] CF challenge HTML found {"url":"https://app.apollo.io/api/v1/auth/login","length":9340}
+2026-03-14 02:00:39.153 [info] Sending CF challenge to CapSolver {"htmlLength":9340}
+2026-03-14 02:00:39.211 [info] SIGINT received — shutting down
+2026-03-14 02:04:12.540 [info] Initialising session manager...
+2026-03-14 02:04:12.542 [info] SessionManager: loaded 1 account(s)
+2026-03-14 02:04:12.543 [info] Starting Apollo login {"accountId":"account_1"}
+2026-03-14 02:04:12.543 [info] Probing for CF challenge {"url":"https://app.apollo.io/api/v1/auth/login"}
+2026-03-14 02:04:12.556 [info] Apollo API service listening on port 3000
+2026-03-14 02:04:14.951 [info] Probe response {"url":"https://app.apollo.io/api/v1/auth/login","status":403,"length":9362,"hasCF":true}
+2026-03-14 02:04:14.951 [info] CF challenge HTML found {"url":"https://app.apollo.io/api/v1/auth/login","length":9362}
+2026-03-14 02:04:14.951 [info] Sending CF challenge to CapSolver {"htmlLength":9362}
+2026-03-14 02:04:15.527 [error] CapSolver createTask HTTP error Request failed with status code 400 {"status":400,"body":"{\"errorCode\":\"ERROR_INVALID_TASK_DATA\",\"errorDescription\":\"invalid task data: the userAgent is also required since you sent html\",\"errorId\":1}"}
+2026-03-14 02:04:15.527 [error] Login attempt failed {"accountId":"account_1","attempt":1,"err":"CapSolver HTTP 400: {\"errorCode\":\"ERROR_INVALID_TASK_DATA\",\"errorDescription\":\"invalid task data: the userAgent is also required since you sent html\",\"errorId\":1}","stack":"Error: CapSolver HTTP 400: {\"errorCode\":\"ERROR_INVALID_TASK_DATA\",\"errorDescription\":\"invalid task data: the userAgent is also required since you sent html\",\"errorId\":1}\n    at getCfClearance (/Users/arshtyagi/Desktop/try/auth.js:85:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async loginToApollo (/Users/arshtyagi/Desktop/try/auth.js:162:38)\n    at async /Users/arshtyagi/Desktop/try/sessionManager.js:187:25"}
+2026-03-14 02:04:20.528 [info] Starting Apollo login {"accountId":"account_1"}
+2026-03-14 02:04:20.529 [info] Probing for CF challenge {"url":"https://app.apollo.io/api/v1/auth/login"}
+2026-03-14 02:04:21.899 [info] SIGINT received — shutting down
+2026-03-14 02:05:04.139 [info] Initialising session manager...
+2026-03-14 02:05:04.141 [info] SessionManager: loaded 1 account(s)
+2026-03-14 02:05:04.141 [info] Starting Apollo login {"accountId":"account_1"}
+2026-03-14 02:05:04.142 [info] Probing for CF challenge {"url":"https://app.apollo.io/api/v1/auth/login"}
+2026-03-14 02:05:04.155 [info] Apollo API service listening on port 3000
+2026-03-14 02:05:06.495 [info] Probe response {"url":"https://app.apollo.io/api/v1/auth/login","status":403,"length":9341,"hasCF":true}
+2026-03-14 02:05:06.496 [info] CF challenge HTML found {"url":"https://app.apollo.io/api/v1/auth/login","length":9341}
+2026-03-14 02:05:06.496 [info] Sending CF challenge to CapSolver {"htmlLength":9341}
+2026-03-14 02:05:06.804 [error] CapSolver createTask HTTP error Request failed with status code 400 {"status":400,"body":"{\"errorCode\":\"ERROR_INVALID_TASK_DATA\",\"errorDescription\":\"invalid task data: the userAgent is also required since you sent html\",\"errorId\":1}"}
+2026-03-14 02:05:06.805 [error] Login attempt failed {"accountId":"account_1","attempt":1,"err":"CapSolver HTTP 400: {\"errorCode\":\"ERROR_INVALID_TASK_DATA\",\"errorDescription\":\"invalid task data: the userAgent is also required since you sent html\",\"errorId\":1}","stack":"Error: CapSolver HTTP 400: {\"errorCode\":\"ERROR_INVALID_TASK_DATA\",\"errorDescription\":\"invalid task data: the userAgent is also required since you sent html\",\"errorId\":1}\n    at getCfClearance (/Users/arshtyagi/Desktop/try/auth.js:85:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async loginToApollo (/Users/arshtyagi/Desktop/try/auth.js:162:38)\n    at async /Users/arshtyagi/Desktop/try/sessionManager.js:187:25"}
+2026-03-14 02:05:11.806 [info] Starting Apollo login {"accountId":"account_1"}
+2026-03-14 02:05:11.806 [info] Probing for CF challenge {"url":"https://app.apollo.io/api/v1/auth/login"}
+2026-03-14 02:05:14.858 [info] Probe response {"url":"https://app.apollo.io/api/v1/auth/login","status":403,"length":9362,"hasCF":true}
+2026-03-14 02:05:14.858 [info] CF challenge HTML found {"url":"https://app.apollo.io/api/v1/auth/login","length":9362}
+2026-03-14 02:05:14.859 [info] Sending CF challenge to CapSolver {"htmlLength":9362}
+2026-03-14 02:05:15.159 [error] CapSolver createTask HTTP error Request failed with status code 400 {"status":400,"body":"{\"errorCode\":\"ERROR_INVALID_TASK_DATA\",\"errorDescription\":\"invalid task data: the userAgent is also required since you sent html\",\"errorId\":1}"}
+2026-03-14 02:05:15.160 [error] Login attempt failed {"accountId":"account_1","attempt":2,"err":"CapSolver HTTP 400: {\"errorCode\":\"ERROR_INVALID_TASK_DATA\",\"errorDescription\":\"invalid task data: the userAgent is also required since you sent html\",\"errorId\":1}","stack":"Error: CapSolver HTTP 400: {\"errorCode\":\"ERROR_INVALID_TASK_DATA\",\"errorDescription\":\"invalid task data: the userAgent is also required since you sent html\",\"errorId\":1}\n    at getCfClearance (/Users/arshtyagi/Desktop/try/auth.js:85:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async loginToApollo (/Users/arshtyagi/Desktop/try/auth.js:162:38)\n    at async /Users/arshtyagi/Desktop/try/sessionManager.js:187:25"}
+2026-03-14 02:05:17.654 [info] SIGINT received — shutting down
+2026-03-14 02:05:44.594 [info] Initialising session manager...
+2026-03-14 02:05:44.596 [info] SessionManager: loaded 1 account(s)
+2026-03-14 02:05:44.597 [info] Starting Apollo login {"accountId":"account_1"}
+2026-03-14 02:05:44.598 [info] Probing for CF challenge {"url":"https://app.apollo.io/api/v1/auth/login"}
+2026-03-14 02:05:44.611 [info] Apollo API service listening on port 3000
+2026-03-14 02:05:46.611 [info] Probe response {"url":"https://app.apollo.io/api/v1/auth/login","status":403,"length":9340,"hasCF":true}
+2026-03-14 02:05:46.611 [info] CF challenge HTML found {"url":"https://app.apollo.io/api/v1/auth/login","length":9340}
+2026-03-14 02:05:46.612 [info] Sending CF challenge to CapSolver {"htmlLength":9340}
+2026-03-14 02:05:50.462 [info] CapSolver raw response {"data":"{\"errorId\":0,\"taskId\":\"8a9fa716-3660-4b80-9cc4-6ad48365858a\",\"status\":\"idle\"}"}
+2026-03-14 02:05:50.463 [info] CapSolver task created {"taskId":"8a9fa716-3660-4b80-9cc4-6ad48365858a"}
+2026-03-14 02:06:06.840 [error] Login attempt failed {"accountId":"account_1","attempt":1,"err":"CapSolver poll error: Failed！ Please check if the userAgent and proxy IP you sent match those in your code.","stack":"Error: CapSolver poll error: Failed！ Please check if the userAgent and proxy IP you sent match those in your code.\n    at getCfClearance (/Users/arshtyagi/Desktop/try/auth.js:106:32)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async loginToApollo (/Users/arshtyagi/Desktop/try/auth.js:163:38)\n    at async /Users/arshtyagi/Desktop/try/sessionManager.js:187:25"}
+2026-03-14 02:06:11.841 [info] Starting Apollo login {"accountId":"account_1"}
+2026-03-14 02:06:11.842 [info] Probing for CF challenge {"url":"https://app.apollo.io/api/v1/auth/login"}
+2026-03-14 02:06:14.363 [info] Probe response {"url":"https://app.apollo.io/api/v1/auth/login","status":403,"length":9319,"hasCF":true}
+2026-03-14 02:06:14.363 [info] CF challenge HTML found {"url":"https://app.apollo.io/api/v1/auth/login","length":9319}
+2026-03-14 02:06:14.363 [info] Sending CF challenge to CapSolver {"htmlLength":9319}
+2026-03-14 02:06:17.510 [info] CapSolver raw response {"data":"{\"errorId\":0,\"taskId\":\"05f20621-5134-4a46-8298-b6175f939a39\",\"status\":\"idle\"}"}
+2026-03-14 02:06:17.510 [info] CapSolver task created {"taskId":"05f20621-5134-4a46-8298-b6175f939a39"}
+2026-03-14 02:06:27.290 [error] Login attempt failed {"accountId":"account_1","attempt":2,"err":"CapSolver poll error: Failed！ Please check if the userAgent and proxy IP you sent match those in your code.","stack":"Error: CapSolver poll error: Failed！ Please check if the userAgent and proxy IP you sent match those in your code.\n    at getCfClearance (/Users/arshtyagi/Desktop/try/auth.js:106:32)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async loginToApollo (/Users/arshtyagi/Desktop/try/auth.js:163:38)\n    at async /Users/arshtyagi/Desktop/try/sessionManager.js:187:25"}
+2026-03-14 02:06:32.234 [info] SIGINT received — shutting down
+2026-03-14 02:08:37.173 [info] Initialising session manager...
+2026-03-14 02:08:37.177 [info] SessionManager: loaded 1 account(s)
+2026-03-14 02:08:37.178 [info] Starting Apollo login {"accountId":"account_1"}
+2026-03-14 02:08:37.178 [info] Probing for CF challenge {"url":"https://app.apollo.io/api/v1/auth/login"}
+2026-03-14 02:08:37.193 [info] Apollo API service listening on port 3000
+2026-03-14 02:08:40.379 [info] Probe response {"url":"https://app.apollo.io/api/v1/auth/login","status":403,"length":9340,"hasCF":true}
+2026-03-14 02:08:40.379 [info] CF challenge HTML found {"url":"https://app.apollo.io/api/v1/auth/login","length":9340}
+2026-03-14 02:08:40.379 [info] Sending CF challenge to CapSolver {"htmlLength":9340}
+2026-03-14 02:08:42.247 [info] CapSolver raw response {"data":"{\"errorId\":0,\"taskId\":\"a6bf9f35-7cf6-4419-a394-34bf81563697\",\"status\":\"idle\"}"}
+2026-03-14 02:08:42.247 [info] CapSolver task created {"taskId":"a6bf9f35-7cf6-4419-a394-34bf81563697"}
+2026-03-14 02:08:49.344 [error] Login attempt failed {"accountId":"account_1","attempt":1,"err":"CapSolver poll error: Failed！ Please check if the userAgent and proxy IP you sent match those in your code.","stack":"Error: CapSolver poll error: Failed！ Please check if the userAgent and proxy IP you sent match those in your code.\n    at getCfClearance (/Users/arshtyagi/Desktop/try/auth.js:106:32)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async loginToApollo (/Users/arshtyagi/Desktop/try/auth.js:163:38)\n    at async /Users/arshtyagi/Desktop/try/sessionManager.js:187:25"}
+2026-03-14 02:08:54.345 [info] Starting Apollo login {"accountId":"account_1"}
+2026-03-14 02:08:54.345 [info] Probing for CF challenge {"url":"https://app.apollo.io/api/v1/auth/login"}
+2026-03-14 02:08:56.265 [info] SIGINT received — shutting down
+2026-03-14 02:10:08.244 [info] Initialising session manager...
+2026-03-14 02:10:08.246 [info] SessionManager: loaded 1 account(s)
+2026-03-14 02:10:08.247 [info] Starting Apollo login {"accountId":"account_1"}
+2026-03-14 02:10:08.247 [info] Requesting CF clearance from CapSolver (no HTML — CapSolver fetches via proxy)
+2026-03-14 02:10:08.274 [info] Apollo API service listening on port 3000
+2026-03-14 02:10:09.951 [info] CapSolver raw response {"data":"{\"errorId\":0,\"taskId\":\"bdf7c905-dbee-43ab-9f02-8ac836717034\",\"status\":\"idle\"}"}
+2026-03-14 02:10:09.952 [info] CapSolver task created {"taskId":"bdf7c905-dbee-43ab-9f02-8ac836717034"}
+2026-03-14 02:10:19.204 [info] CapSolver solution ready {"keys":["cookies","token","userAgent"]}
+2026-03-14 02:10:19.205 [error] No cf_clearance in solution {"solution":"{\"cookies\":{\"cf_clearance\":\"mJIMfR6Hk1lViFe57tZAg8nCrgKLe1iZtQR6_QhrLFk-1773434418-1.2.1.1-0RFXpuCQQAULz62aItwoCaXdfgChuy6nfDTSSb3QeJK4Opo3hPAS52qEx0fTvkw8zEvhzan9Tw4.XiMxGkv3.oI_qUI6Nw0nYMoJJk7ha.3HmzWUtQZNMUmKXA_jYj_v5Hc37meHD_94aE6QdHHXvZU1ytCwfnZG06wTzyNgil2p34DSB2lj7VheS3N.Slw2NU064UztRHPRt9gl8j8nkmSP81hp6axUsKCkfnbK19w\"},\"token\":\"mJIMfR6Hk1lViFe57tZAg8nCrgKLe1iZtQR6_QhrLFk-1773434418-1.2.1.1-0RFXpuCQQAULz62aItwoCaXdfgChuy6nfDTSSb3QeJK4Opo3hPAS52qEx0fTvkw8zEvhzan9Tw4.XiMxGkv3.oI_qUI6Nw0nYMoJJk7ha.3HmzWUtQZNMUmKXA_jYj_v5Hc37meHD_94aE6QdHHXvZU1ytCwfnZG06wTzyNgil2p34DSB2lj7VheS3N.Slw2NU064UztRHPRt9gl8j8nkmSP81hp6axUsKCkfnbK19w\",\"userAgent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"}"}
+2026-03-14 02:10:19.205 [error] Login attempt failed {"accountId":"account_1","attempt":1,"err":"No cf_clearance returned by CapSolver","stack":"Error: No cf_clearance returned by CapSolver\n    at getCfClearance (/Users/arshtyagi/Desktop/try/auth.js:200:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async loginToApollo (/Users/arshtyagi/Desktop/try/auth.js:215:38)\n    at async /Users/arshtyagi/Desktop/try/sessionManager.js:187:25"}
+2026-03-14 02:10:24.206 [info] Starting Apollo login {"accountId":"account_1"}
+2026-03-14 02:10:24.206 [info] Requesting CF clearance from CapSolver (no HTML — CapSolver fetches via proxy)
+2026-03-14 02:10:25.850 [info] CapSolver raw response {"data":"{\"errorId\":0,\"taskId\":\"ef1048cf-0b5d-43e8-b302-aee50318b89a\",\"status\":\"idle\"}"}
+2026-03-14 02:10:25.850 [info] CapSolver task created {"taskId":"ef1048cf-0b5d-43e8-b302-aee50318b89a"}
+2026-03-14 02:10:26.249 [info] SIGINT received — shutting down
+2026-03-14 02:11:14.965 [info] Initialising session manager...
+2026-03-14 02:11:14.967 [info] SessionManager: loaded 1 account(s)
+2026-03-14 02:11:14.968 [info] Starting Apollo login {"accountId":"account_1"}
+2026-03-14 02:11:14.968 [info] Requesting CF clearance from CapSolver (no HTML — CapSolver fetches via proxy)
+2026-03-14 02:11:14.996 [info] Apollo API service listening on port 3000
+2026-03-14 02:11:16.608 [info] CapSolver raw response {"data":"{\"errorId\":0,\"taskId\":\"564974de-16fb-4867-b308-dee43cbe26ca\",\"status\":\"idle\"}"}
+2026-03-14 02:11:16.608 [info] CapSolver task created {"taskId":"564974de-16fb-4867-b308-dee43cbe26ca"}
+2026-03-14 02:11:24.006 [info] CapSolver solution ready {"keys":["cookies","token","userAgent"]}
+2026-03-14 02:11:24.006 [error] No cf_clearance in solution {"solution":"{\"cookies\":{\"cf_clearance\":\"uvg.odhXnLERnke3JkwhXAv2YGfAjlb5n5LWjCnOKCs-1773434483-1.2.1.1-HUbRfOxczYd.V..mfzNSjnwMCnbapkZI1zIzURmefUZvARaBKcDg7sbE1E.m7R75ONutxAqkCiEzZgYvbJD51to.7XXM2NgqSKL0jxgeVzLQ_ji8JmXLzcuNKKmzu6W_IAGsBG5ZjUDvO3BBh_OqiuYJvi7qUEqGgPg1wenwQWtt4SkACrOZIUS23bvhecEHB3RqLESdZJpUVuILgHXxGFxZNctFCwUWaNSYkJJ.Gbk\"},\"token\":\"uvg.odhXnLERnke3JkwhXAv2YGfAjlb5n5LWjCnOKCs-1773434483-1.2.1.1-HUbRfOxczYd.V..mfzNSjnwMCnbapkZI1zIzURmefUZvARaBKcDg7sbE1E.m7R75ONutxAqkCiEzZgYvbJD51to.7XXM2NgqSKL0jxgeVzLQ_ji8JmXLzcuNKKmzu6W_IAGsBG5ZjUDvO3BBh_OqiuYJvi7qUEqGgPg1wenwQWtt4SkACrOZIUS23bvhecEHB3RqLESdZJpUVuILgHXxGFxZNctFCwUWaNSYkJJ.Gbk\",\"userAgent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"}"}
+2026-03-14 02:11:24.007 [error] Login attempt failed {"accountId":"account_1","attempt":1,"err":"No cf_clearance returned by CapSolver","stack":"Error: No cf_clearance returned by CapSolver\n    at getCfClearance (/Users/arshtyagi/Desktop/try/auth.js:211:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async loginToApollo (/Users/arshtyagi/Desktop/try/auth.js:226:38)\n    at async /Users/arshtyagi/Desktop/try/sessionManager.js:187:25"}
+2026-03-14 02:11:29.006 [info] Starting Apollo login {"accountId":"account_1"}
+2026-03-14 02:11:29.007 [info] Requesting CF clearance from CapSolver (no HTML — CapSolver fetches via proxy)
+2026-03-14 02:11:30.410 [info] CapSolver raw response {"data":"{\"errorId\":0,\"taskId\":\"4847abc7-dcbb-4b92-bd12-34ba1818b167\",\"status\":\"idle\"}"}
+2026-03-14 02:11:30.410 [info] CapSolver task created {"taskId":"4847abc7-dcbb-4b92-bd12-34ba1818b167"}
+2026-03-14 02:11:31.443 [info] SIGINT received — shutting down
+2026-03-14 02:12:44.447 [info] Initialising session manager...
+2026-03-14 02:12:44.449 [info] SessionManager: loaded 1 account(s)
+2026-03-14 02:12:44.449 [info] Starting Apollo login {"accountId":"account_1"}
+2026-03-14 02:12:44.450 [info] Requesting CF clearance from CapSolver
+2026-03-14 02:12:44.478 [info] Apollo API service listening on port 3000
+2026-03-14 02:12:46.014 [info] CapSolver task created {"taskId":"09e17b9d-3280-4dbd-af69-d2ce767383e3"}
+2026-03-14 02:12:54.010 [info] CapSolver solution {"solution":"{\"cookies\":{\"cf_clearance\":\"HXHN8RMw7woUO6jzbP8X7bdxmoxakQD1dV0cKo80pjA-1773434573-1.2.1.1-Tk8TCmb8coaFu8fF0WO7iSvm0dQjwaSc4_L3oeydAt.bc3dMAwyiwx6zbyJ16s.Gt4_uqd9uau0fMt_5ZeE8HLgx5ALplEAoHE.Z0a7z5rrTwLh6YnxH45kBOKITdAudliLakGVvQU7XRvXbUb9ecY4BxzLZVotW6MOo0nGvF_cw_RNPGlJaJ7LU.QfNYsXu7dv.8AaMN3ijWYpvN8dCdKJpVcli8aJV848Odh_iy7U\"},\"token\":\"HXHN8RMw7woUO6jzbP8X7bdxmoxakQD1dV0cKo80pjA-1773434573-1.2.1.1-Tk8TCmb8coaFu8fF0WO7iSvm0dQjwaSc4_L3oeydAt.bc3dMAwyiwx6zbyJ16s.Gt4_uqd9uau0fMt_5ZeE8HLgx5ALplEAoHE.Z0a7z5rrTwLh6YnxH45kBOKITdAudliLakGVvQU7XRvXbUb9ecY4BxzLZVotW6MOo0nGvF_cw_RNPGlJaJ7LU.QfNYsXu7dv.8AaMN3ijWYpvN8dCdKJpVcli8aJV848Odh_iy7U\",\"userAgent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"}"}
+2026-03-14 02:12:54.011 [info] cf_clearance obtained
+2026-03-14 02:12:57.425 [warn] CSRF ping failed {"status":404,"err":"Request failed with status code 404"}
+2026-03-14 02:12:57.425 [info] Pre-login tokens ready {"hasCsrf":false}
+2026-03-14 02:12:58.877 [error] Login POST failed {"status":403,"body":"\"<!DOCTYPE html><html lang=\\\"en-US\\\"><head><title>Just a moment...</title><meta http-equiv=\\\"Content-Type\\\" content=\\\"text/html; charset=UTF-8\\\"><meta http-equiv=\\\"X-UA-Compatible\\\" content=\\\"IE=Edge\\\"><meta name=\\\"robots\\\" content=\\\"noindex,nofollow\\\"><meta name=\\\"viewport\\\" content=\\\"width=device-width,initial-scale=1\\\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\\\"Seg"}
+2026-03-14 02:12:58.878 [error] Login attempt failed {"accountId":"account_1","attempt":1,"err":"Login failed HTTP 403: \"<!DOCTYPE html><html lang=\\\"en-US\\\"><head><title>Just a moment...</title><meta http-equiv=\\\"Content-Type\\\" content=\\\"text/html; charset=UTF-8\\\"><meta http-equiv=\\\"X-UA-Compatible\\\" content=\\\"IE=Edge\\\"><meta name=\\\"robots\\\" content=\\\"noindex,nofollow\\\"><meta name=\\\"viewport\\\" content=\\\"width=device-width,initial-scale=1\\\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\\\"Seg","stack":"Error: Login failed HTTP 403: \"<!DOCTYPE html><html lang=\\\"en-US\\\"><head><title>Just a moment...</title><meta http-equiv=\\\"Content-Type\\\" content=\\\"text/html; charset=UTF-8\\\"><meta http-equiv=\\\"X-UA-Compatible\\\" content=\\\"IE=Edge\\\"><meta name=\\\"robots\\\" content=\\\"noindex,nofollow\\\"><meta name=\\\"viewport\\\" content=\\\"width=device-width,initial-scale=1\\\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\\\"Seg\n    at loginToApollo (/Users/arshtyagi/Desktop/try/auth.js:166:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async /Users/arshtyagi/Desktop/try/sessionManager.js:187:25"}
+2026-03-14 02:13:03.879 [info] Starting Apollo login {"accountId":"account_1"}
+2026-03-14 02:13:03.880 [info] Requesting CF clearance from CapSolver
+2026-03-14 02:13:05.741 [info] CapSolver task created {"taskId":"966f38f9-65a8-43ee-90ee-28cf18d6aabe"}
+2026-03-14 02:13:05.944 [info] SIGINT received — shutting down
+2026-03-14 02:13:48.237 [info] Initialising session manager...
+2026-03-14 02:13:48.239 [info] SessionManager: loaded 1 account(s)
+2026-03-14 02:13:48.239 [info] Starting Apollo login {"accountId":"account_1"}
+2026-03-14 02:13:48.240 [info] Requesting CF clearance from CapSolver
+2026-03-14 02:13:48.267 [info] Apollo API service listening on port 3000
+2026-03-14 02:13:49.699 [info] CapSolver task created {"taskId":"69765dcc-3b01-4be9-b693-83e98ca1d483"}
+2026-03-14 02:13:57.079 [info] CapSolver solution {"solution":"{\"cookies\":{\"cf_clearance\":\"nNemc1qsSgOmuuQv8cu5BBY4SR3SEg45ZVTUOKwyi9I-1773434636-1.2.1.1-TYnCGjFUE90HD23.6njoLF8bxyaEj1_D6AmcH3YYHsUbHTp3Kx61uunmsvvk0vWcagWR3ozD_A0hYjpX2QfKjFNJ7Q719p648GG452BT3T9FgvHzRU91_UwzFsCS0TzweS3L7O42_oItd7BWBzxcDQI_E0aW26JvsovYrCwaLA19HMPq74E4Z_bC44YUCvWD5aHk.P19LyGY9LUQmjH2ZHDor5f1SHpTW8sNKBz9Hlk\"},\"token\":\"nNemc1qsSgOmuuQv8cu5BBY4SR3SEg45ZVTUOKwyi9I-1773434636-1.2.1.1-TYnCGjFUE90HD23.6njoLF8bxyaEj1_D6AmcH3YYHsUbHTp3Kx61uunmsvvk0vWcagWR3ozD_A0hYjpX2QfKjFNJ7Q719p648GG452BT3T9FgvHzRU91_UwzFsCS0TzweS3L7O42_oItd7BWBzxcDQI_E0aW26JvsovYrCwaLA19HMPq74E4Z_bC44YUCvWD5aHk.P19LyGY9LUQmjH2ZHDor5f1SHpTW8sNKBz9Hlk\",\"userAgent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"}"}
+2026-03-14 02:13:57.080 [info] cf_clearance obtained
+2026-03-14 02:14:00.453 [warn] CSRF ping failed {"status":404,"err":"Request failed with status code 404"}
+2026-03-14 02:14:00.454 [info] Pre-login tokens ready {"hasCsrf":false}
+2026-03-14 02:14:01.455 [error] Login POST failed {}
+2026-03-14 02:14:01.456 [error] Login attempt failed {"accountId":"account_1","attempt":1,"err":"Login failed HTTP undefined: undefined","stack":"Error: Login failed HTTP undefined: undefined\n    at loginToApollo (/Users/arshtyagi/Desktop/try/auth.js:166:11)\n    at async /Users/arshtyagi/Desktop/try/sessionManager.js:187:25"}
+2026-03-14 02:14:06.457 [info] Starting Apollo login {"accountId":"account_1"}
+2026-03-14 02:14:06.458 [info] Requesting CF clearance from CapSolver
+2026-03-14 02:14:07.868 [info] CapSolver task created {"taskId":"8c155d52-333f-486f-91ec-9751454e2080"}
+2026-03-14 02:14:15.875 [info] CapSolver solution {"solution":"{\"cookies\":{\"cf_clearance\":\"yysuWcbEyKuBJtGJgx_B_rRLhbkZNCcl.C8sqx4oH_0-1773434655-1.2.1.1-p5yqbV.4q_ogd6AG0mH2xmLgJ72fffXMYboxwJLeN7GdveigP6kv6sMgbVyDkcrYh1zkQvm1ibTeuMw0IKtSOqhiKazZPnI5y3HfCMko_OW7Lpr2hu7RZrWxnqLUhrb_2gMgN9P73W.z6v2QNIs6S2bBICqJSvoyowAPX64n2LQB15_NHYeo0xZ.tV1RqrABc4641Yx9sU3vzOIw8QMswGDLSVpX.fwLYr6I_bpc7TE\"},\"token\":\"yysuWcbEyKuBJtGJgx_B_rRLhbkZNCcl.C8sqx4oH_0-1773434655-1.2.1.1-p5yqbV.4q_ogd6AG0mH2xmLgJ72fffXMYboxwJLeN7GdveigP6kv6sMgbVyDkcrYh1zkQvm1ibTeuMw0IKtSOqhiKazZPnI5y3HfCMko_OW7Lpr2hu7RZrWxnqLUhrb_2gMgN9P73W.z6v2QNIs6S2bBICqJSvoyowAPX64n2LQB15_NHYeo0xZ.tV1RqrABc4641Yx9sU3vzOIw8QMswGDLSVpX.fwLYr6I_bpc7TE\",\"userAgent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"}"}
+2026-03-14 02:14:15.876 [info] cf_clearance obtained
+2026-03-14 02:14:18.423 [warn] CSRF ping failed {"status":404,"err":"Request failed with status code 404"}
+2026-03-14 02:14:18.424 [info] Pre-login tokens ready {"hasCsrf":false}
+2026-03-14 02:14:19.242 [error] Login POST failed {}
+2026-03-14 02:14:19.242 [error] Login attempt failed {"accountId":"account_1","attempt":2,"err":"Login failed HTTP undefined: undefined","stack":"Error: Login failed HTTP undefined: undefined\n    at loginToApollo (/Users/arshtyagi/Desktop/try/auth.js:166:11)\n    at async /Users/arshtyagi/Desktop/try/sessionManager.js:187:25"}
+2026-03-14 02:14:21.694 [info] SIGINT received — shutting down
+2026-03-14 02:15:05.428 [info] Initialising session manager...
+2026-03-14 02:15:05.430 [info] SessionManager: loaded 1 account(s)
+2026-03-14 02:15:05.431 [info] Starting Apollo login {"accountId":"account_1"}
+2026-03-14 02:15:05.431 [info] Requesting CF clearance from CapSolver
+2026-03-14 02:15:05.458 [info] Apollo API service listening on port 3000
+2026-03-14 02:15:06.906 [info] CapSolver task created {"taskId":"974f576d-f776-4805-8789-f271cd28e875"}
+2026-03-14 02:15:14.905 [info] CapSolver solution {"solution":"{\"cookies\":{\"cf_clearance\":\"I2LCqCApiMtTIEKoeKfrdREIOhBNYoer6P2iyqWlP2g-1773434714-1.2.1.1-xFPdvMe4dESUIQjzI4bHyvL.9a01PJbCTboP0Sp650iTX9_sonZDDTuB7QOi3mNhjxjx2g4s6FwqImPbXZpK1rXRJZ9Px7X7dsfnuXmuTwNZsULXhMocloB9po8mI1Vh3imwCbtcmz1yUwt8geC4MvK4mpac.UMnZJXBxRCIENk9fNamXz7YDsSLm84M4RthpIqTB6hp9qx6rIotN2lz_txvETVBEOT_pxlYv_s_15c\"},\"token\":\"I2LCqCApiMtTIEKoeKfrdREIOhBNYoer6P2iyqWlP2g-1773434714-1.2.1.1-xFPdvMe4dESUIQjzI4bHyvL.9a01PJbCTboP0Sp650iTX9_sonZDDTuB7QOi3mNhjxjx2g4s6FwqImPbXZpK1rXRJZ9Px7X7dsfnuXmuTwNZsULXhMocloB9po8mI1Vh3imwCbtcmz1yUwt8geC4MvK4mpac.UMnZJXBxRCIENk9fNamXz7YDsSLm84M4RthpIqTB6hp9qx6rIotN2lz_txvETVBEOT_pxlYv_s_15c\",\"userAgent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"}"}
+2026-03-14 02:15:14.906 [info] cf_clearance obtained
+2026-03-14 02:15:17.958 [warn] CSRF ping failed {"status":404,"err":"Request failed with status code 404"}
+2026-03-14 02:15:17.959 [info] Pre-login tokens ready {"hasCsrf":false}
+2026-03-14 02:15:19.002 [error] Login POST failed axios-cookiejar-support does not support for use with other http(s).Agent. {}
+2026-03-14 02:15:19.003 [error] Login attempt failed {"accountId":"account_1","attempt":1,"err":"Login failed HTTP undefined: axios-cookiejar-support does not support for use with other http(s).Agent.","stack":"Error: Login failed HTTP undefined: axios-cookiejar-support does not support for use with other http(s).Agent.\n    at loginToApollo (/Users/arshtyagi/Desktop/try/auth.js:166:11)\n    at async /Users/arshtyagi/Desktop/try/sessionManager.js:187:25"}
+2026-03-14 02:15:24.004 [info] Starting Apollo login {"accountId":"account_1"}
+2026-03-14 02:15:24.005 [info] Requesting CF clearance from CapSolver
+2026-03-14 02:15:25.807 [info] CapSolver task created {"taskId":"38510b4a-b58b-4f75-a792-1125b94ce6a7"}
+2026-03-14 02:15:26.390 [info] SIGINT received — shutting down
+2026-03-14 02:16:03.072 [info] Initialising session manager...
+2026-03-14 02:16:03.074 [info] SessionManager: loaded 1 account(s)
+2026-03-14 02:16:03.075 [info] Starting Apollo login {"accountId":"account_1"}
+2026-03-14 02:16:03.075 [info] Requesting CF clearance from CapSolver
+2026-03-14 02:16:03.096 [info] Apollo API service listening on port 3000
+2026-03-14 02:16:04.798 [info] CapSolver task created {"taskId":"2aeffcfc-5067-476a-b491-5e7912792af6"}
+2026-03-14 02:16:13.396 [info] CapSolver solution {"solution":"{\"cookies\":{\"cf_clearance\":\"00RfR5oDM8iNAQa.y73A.cpHbfe4XHSb9mWJsiAuyWY-1773434772-1.2.1.1-YledZsqLfvV8juITxXhjIo1vU88.T_PcMXePWJhOr7E4witkH7hQ.ewZrPaBOhJS2hldhKdQHI6G4Dvg2s35dSb_S5ZAyB0jRqUnXTtzKdB9ZC_nsKIEhztsxEOvPn89XZfMexfN1.wksPg.F.6T0CxxF_KyDE.FlUD.uph.WqPDDY.wmvclzPlfwA654E1YD_IEXbyz8tkwP6n7n0cMhgPBhi4EfIuZ0wW0RX041b0\"},\"token\":\"00RfR5oDM8iNAQa.y73A.cpHbfe4XHSb9mWJsiAuyWY-1773434772-1.2.1.1-YledZsqLfvV8juITxXhjIo1vU88.T_PcMXePWJhOr7E4witkH7hQ.ewZrPaBOhJS2hldhKdQHI6G4Dvg2s35dSb_S5ZAyB0jRqUnXTtzKdB9ZC_nsKIEhztsxEOvPn89XZfMexfN1.wksPg.F.6T0CxxF_KyDE.FlUD.uph.WqPDDY.wmvclzPlfwA654E1YD_IEXbyz8tkwP6n7n0cMhgPBhi4EfIuZ0wW0RX041b0\",\"userAgent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"}"}
+2026-03-14 02:16:13.397 [info] cf_clearance obtained
+2026-03-14 02:16:16.432 [warn] CSRF ping failed {"status":404,"err":"Request failed with status code 404"}
+2026-03-14 02:16:16.432 [info] Pre-login tokens ready {"hasCsrf":false}
+2026-03-14 02:16:20.683 [error] Login POST failed Request failed with status code 403 {"status":403,"body":"\"<!DOCTYPE html><html lang=\\\"en-US\\\"><head><title>Just a moment...</title><meta http-equiv=\\\"Content-Type\\\" content=\\\"text/html; charset=UTF-8\\\"><meta http-equiv=\\\"X-UA-Compatible\\\" content=\\\"IE=Edge\\\"><meta name=\\\"robots\\\" content=\\\"noindex,nofollow\\\"><meta name=\\\"viewport\\\" content=\\\"width=device-width,initial-scale=1\\\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\\\"Seg","code":"ERR_BAD_REQUEST"}
+2026-03-14 02:16:20.683 [error] Login attempt failed {"accountId":"account_1","attempt":1,"err":"Login failed HTTP 403: \"<!DOCTYPE html><html lang=\\\"en-US\\\"><head><title>Just a moment...</title><meta http-equiv=\\\"Content-Type\\\" content=\\\"text/html; charset=UTF-8\\\"><meta http-equiv=\\\"X-UA-Compatible\\\" content=\\\"IE=Edge\\\"><meta name=\\\"robots\\\" content=\\\"noindex,nofollow\\\"><meta name=\\\"viewport\\\" content=\\\"width=device-width,initial-scale=1\\\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\\\"Seg","stack":"Error: Login failed HTTP 403: \"<!DOCTYPE html><html lang=\\\"en-US\\\"><head><title>Just a moment...</title><meta http-equiv=\\\"Content-Type\\\" content=\\\"text/html; charset=UTF-8\\\"><meta http-equiv=\\\"X-UA-Compatible\\\" content=\\\"IE=Edge\\\"><meta name=\\\"robots\\\" content=\\\"noindex,nofollow\\\"><meta name=\\\"viewport\\\" content=\\\"width=device-width,initial-scale=1\\\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\\\"Seg\n    at loginToApollo (/Users/arshtyagi/Desktop/try/auth.js:166:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async /Users/arshtyagi/Desktop/try/sessionManager.js:187:25"}
+2026-03-14 02:16:25.685 [info] Starting Apollo login {"accountId":"account_1"}
+2026-03-14 02:16:25.686 [info] Requesting CF clearance from CapSolver
+2026-03-14 02:16:27.118 [info] CapSolver task created {"taskId":"3d4e71f8-0468-4e10-af1e-014583bbc3c3"}
+2026-03-14 02:16:28.040 [info] SIGINT received — shutting down
+2026-03-14 02:17:52.928 [info] Initialising session manager...
+2026-03-14 02:17:52.930 [info] SessionManager: loaded 1 account(s)
+2026-03-14 02:17:52.930 [info] Starting Apollo login {"accountId":"account_1"}
+2026-03-14 02:17:52.931 [info] Requesting CF clearance from CapSolver
+2026-03-14 02:17:52.951 [info] Apollo API service listening on port 3000
+2026-03-14 02:17:54.577 [info] CapSolver task created {"taskId":"cd0ce237-0cbc-4914-bc21-c4a6adda5208"}
+2026-03-14 02:18:02.540 [info] CapSolver solution {"solution":"{\"cookies\":{\"cf_clearance\":\"0qMuDoru6WrXTKZyT3DU0NxeeW4mUj6Ito.O8EjNb4g-1773434881-1.2.1.1-NjWzifqhrMZbMEbZH7p0CZwIx3cbWPth5AaYtBgrE0mc45bdCg32uaBGNAQvTbGhRnwcMRweArhLMoXU0IyOYrp1Mx1QbfbTAU14xDe9wCR7BDmMyELjJS8lamg.VtnVfvz2W9zDb1Tz4KO_vak.4Ee7YEAqp_kHMiL8xCs6bzDuf0w3EKvU0l24mE_Rb1m1adDXQAA5vQiaPVMP3zH75sV0caC4qj9KKEoXd4t9WMA\"},\"token\":\"0qMuDoru6WrXTKZyT3DU0NxeeW4mUj6Ito.O8EjNb4g-1773434881-1.2.1.1-NjWzifqhrMZbMEbZH7p0CZwIx3cbWPth5AaYtBgrE0mc45bdCg32uaBGNAQvTbGhRnwcMRweArhLMoXU0IyOYrp1Mx1QbfbTAU14xDe9wCR7BDmMyELjJS8lamg.VtnVfvz2W9zDb1Tz4KO_vak.4Ee7YEAqp_kHMiL8xCs6bzDuf0w3EKvU0l24mE_Rb1m1adDXQAA5vQiaPVMP3zH75sV0caC4qj9KKEoXd4t9WMA\",\"userAgent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"}"}
+2026-03-14 02:18:02.540 [info] cf_clearance obtained
+2026-03-14 02:18:06.065 [warn] CSRF ping failed {"status":404,"err":"Request failed with status code 404"}
+2026-03-14 02:18:06.066 [info] Pre-login tokens ready {"hasCsrf":false}
+2026-03-14 02:18:16.904 [info] Homepage visited — CF cookies seeded
+2026-03-14 02:18:17.408 [info] Cookie count for login {"count":4}
+2026-03-14 02:18:20.510 [error] Login POST failed Request failed with status code 403 {"status":403,"body":"\"<!DOCTYPE html><html lang=\\\"en-US\\\"><head><title>Just a moment...</title><meta http-equiv=\\\"Content-Type\\\" content=\\\"text/html; charset=UTF-8\\\"><meta http-equiv=\\\"X-UA-Compatible\\\" content=\\\"IE=Edge\\\"><meta name=\\\"robots\\\" content=\\\"noindex,nofollow\\\"><meta name=\\\"viewport\\\" content=\\\"width=device-width,initial-scale=1\\\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\\\"Seg","code":"ERR_BAD_REQUEST"}
+2026-03-14 02:18:20.510 [error] Login attempt failed {"accountId":"account_1","attempt":1,"err":"Login failed HTTP 403: \"<!DOCTYPE html><html lang=\\\"en-US\\\"><head><title>Just a moment...</title><meta http-equiv=\\\"Content-Type\\\" content=\\\"text/html; charset=UTF-8\\\"><meta http-equiv=\\\"X-UA-Compatible\\\" content=\\\"IE=Edge\\\"><meta name=\\\"robots\\\" content=\\\"noindex,nofollow\\\"><meta name=\\\"viewport\\\" content=\\\"width=device-width,initial-scale=1\\\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\\\"Seg","stack":"Error: Login failed HTTP 403: \"<!DOCTYPE html><html lang=\\\"en-US\\\"><head><title>Just a moment...</title><meta http-equiv=\\\"Content-Type\\\" content=\\\"text/html; charset=UTF-8\\\"><meta http-equiv=\\\"X-UA-Compatible\\\" content=\\\"IE=Edge\\\"><meta name=\\\"robots\\\" content=\\\"noindex,nofollow\\\"><meta name=\\\"viewport\\\" content=\\\"width=device-width,initial-scale=1\\\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\\\"Seg\n    at loginToApollo (/Users/arshtyagi/Desktop/try/auth.js:190:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async /Users/arshtyagi/Desktop/try/sessionManager.js:187:25"}
+2026-03-14 02:18:25.512 [info] Starting Apollo login {"accountId":"account_1"}
+2026-03-14 02:18:25.513 [info] Requesting CF clearance from CapSolver
+2026-03-14 02:18:26.449 [info] SIGINT received — shutting down
+2026-03-14 02:19:36.699 [info] Initialising session manager...
+2026-03-14 02:19:36.701 [info] SessionManager: loaded 1 account(s)
+2026-03-14 02:19:36.701 [info] Starting Apollo login {"accountId":"account_1"}
+2026-03-14 02:19:36.702 [info] Requesting CF clearance from CapSolver
+2026-03-14 02:19:36.729 [info] Apollo API service listening on port 3000
+2026-03-14 02:19:38.398 [info] CapSolver task created {"taskId":"2c1f4f04-8d97-410c-b8c4-f4225bd898c3"}
+2026-03-14 02:19:47.016 [info] CapSolver solution {"solution":"{\"cookies\":{\"cf_clearance\":\"WAlUegSxhsV.ybD7xldby31dTL2i4icDpC4twRVpric-1773434986-1.2.1.1-yvwYFFKXO0m6xy69QI0MbWe9ZbyEnFwaItHYpMaI2EWt.qnHVghn3JKZnwmR4Q71r813FscOuLjkOt43TV_vNeMvNRIUmxDmjRlb3y0m4TZBq1oYyq3nFOd3.wboKupNpeqH9qFxO3bEBwz_0WxTPDIX.xwrOYnX_sb5.nHAOT9UECJHsrFHF3uH1KRd7TWy5b5mc5gHoIL0hJ5zP0ZAhy9Diapvhoy60Z1tGuZbtrY\"},\"token\":\"WAlUegSxhsV.ybD7xldby31dTL2i4icDpC4twRVpric-1773434986-1.2.1.1-yvwYFFKXO0m6xy69QI0MbWe9ZbyEnFwaItHYpMaI2EWt.qnHVghn3JKZnwmR4Q71r813FscOuLjkOt43TV_vNeMvNRIUmxDmjRlb3y0m4TZBq1oYyq3nFOd3.wboKupNpeqH9qFxO3bEBwz_0WxTPDIX.xwrOYnX_sb5.nHAOT9UECJHsrFHF3uH1KRd7TWy5b5mc5gHoIL0hJ5zP0ZAhy9Diapvhoy60Z1tGuZbtrY\",\"userAgent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"}"}
+2026-03-14 02:19:47.016 [info] cf_clearance obtained
+2026-03-14 02:19:51.117 [info] Homepage seeded
+2026-03-14 02:19:55.470 [warn] CSRF ping failed {"status":404}
+2026-03-14 02:19:55.972 [info] Login cookie count {"count":4}
+2026-03-14 02:19:58.552 [error] Login POST failed Request failed with status code 403 {"status":403,"body":"\"<!DOCTYPE html><html lang=\\\"en-US\\\"><head><title>Just a moment...</title><meta http-equiv=\\\"Content-Type\\\" content=\\\"text/html; charset=UTF-8\\\"><meta http-equiv=\\\"X-UA-Compatible\\\" content=\\\"IE=Edge\\\"><meta name=\\\"robots\\\" content=\\\"noindex,nofollow\\\"><meta name=\\\"viewport\\\" content=\\\"width=device-width,initial-scale=1\\\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\\\"Seg","code":"ERR_BAD_REQUEST"}
+2026-03-14 02:19:58.552 [error] Login attempt failed {"accountId":"account_1","attempt":1,"err":"Login failed HTTP 403: \"<!DOCTYPE html><html lang=\\\"en-US\\\"><head><title>Just a moment...</title><meta http-equiv=\\\"Content-Type\\\" content=\\\"text/html; charset=UTF-8\\\"><meta http-equiv=\\\"X-UA-Compatible\\\" content=\\\"IE=Edge\\\"><meta name=\\\"robots\\\" content=\\\"noindex,nofollow\\\"><meta name=\\\"viewport\\\" content=\\\"width=device-width,initial-scale=1\\\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\\\"Seg","stack":"Error: Login failed HTTP 403: \"<!DOCTYPE html><html lang=\\\"en-US\\\"><head><title>Just a moment...</title><meta http-equiv=\\\"Content-Type\\\" content=\\\"text/html; charset=UTF-8\\\"><meta http-equiv=\\\"X-UA-Compatible\\\" content=\\\"IE=Edge\\\"><meta name=\\\"robots\\\" content=\\\"noindex,nofollow\\\"><meta name=\\\"viewport\\\" content=\\\"width=device-width,initial-scale=1\\\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\\\"Seg\n    at loginToApollo (/Users/arshtyagi/Desktop/try/auth.js:162:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async /Users/arshtyagi/Desktop/try/sessionManager.js:187:25"}
+2026-03-14 02:20:02.393 [info] SIGINT received — shutting down
+2026-03-14 02:29:14.659 [info] Initialising session manager...
+2026-03-14 02:29:14.661 [info] SessionManager: loaded 1 account(s)
+2026-03-14 02:29:14.661 [info] Starting Apollo login {"accountId":"account_1"}
+2026-03-14 02:29:14.662 [info] Requesting CF clearance from CapSolver
+2026-03-14 02:29:14.693 [info] Apollo API service listening on port 3000
+2026-03-14 02:29:16.643 [info] CapSolver task created {"taskId":"d6be74e0-93c6-4080-b39a-5ba05fac54e1"}
+2026-03-14 02:29:24.626 [info] CapSolver solution {"solution":"{\"cookies\":{\"cf_clearance\":\"8VrSehcT1aHzMVPeMfkaTMnVTStJLmgJdkSCcAT6.bI-1773435563-1.2.1.1-3coFzrQBM6H2.E8lBErXuXOstihnNAui19Vfiq.oBw8fRNVh_lOuTbblRezvmsJmYYetulTLxt8zq_Q1UTJWcylldeNsnFCvbHmiwIcUh7Q0cYgBfFnBGNs.eGRxBvZGjDzzEtua8QI38ASm8jHKlAoNEJHSq6iYeJA98gqJWVRmyLR_tWbcqAlPmjDtXp_tn4XeTAqWvbT2i5WOjs9ME7RIImmtuDpXr4x_yrGr1L8\"},\"token\":\"8VrSehcT1aHzMVPeMfkaTMnVTStJLmgJdkSCcAT6.bI-1773435563-1.2.1.1-3coFzrQBM6H2.E8lBErXuXOstihnNAui19Vfiq.oBw8fRNVh_lOuTbblRezvmsJmYYetulTLxt8zq_Q1UTJWcylldeNsnFCvbHmiwIcUh7Q0cYgBfFnBGNs.eGRxBvZGjDzzEtua8QI38ASm8jHKlAoNEJHSq6iYeJA98gqJWVRmyLR_tWbcqAlPmjDtXp_tn4XeTAqWvbT2i5WOjs9ME7RIImmtuDpXr4x_yrGr1L8\",\"userAgent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"}"}
+2026-03-14 02:29:24.627 [info] cf_clearance obtained
+2026-03-14 02:29:28.778 [info] Homepage seeded
+2026-03-14 02:29:32.648 [warn] CSRF ping failed {"status":404}
+2026-03-14 02:29:33.150 [info] Login cookie count {"count":4}
+2026-03-14 02:29:36.021 [error] Login POST failed Request failed with status code 403 {"status":403,"body":"\"<!DOCTYPE html><html lang=\\\"en-US\\\"><head><title>Just a moment...</title><meta http-equiv=\\\"Content-Type\\\" content=\\\"text/html; charset=UTF-8\\\"><meta http-equiv=\\\"X-UA-Compatible\\\" content=\\\"IE=Edge\\\"><meta name=\\\"robots\\\" content=\\\"noindex,nofollow\\\"><meta name=\\\"viewport\\\" content=\\\"width=device-width,initial-scale=1\\\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\\\"Seg","code":"ERR_BAD_REQUEST"}
+2026-03-14 02:29:36.022 [error] Login attempt failed {"accountId":"account_1","attempt":1,"err":"Login failed HTTP 403: \"<!DOCTYPE html><html lang=\\\"en-US\\\"><head><title>Just a moment...</title><meta http-equiv=\\\"Content-Type\\\" content=\\\"text/html; charset=UTF-8\\\"><meta http-equiv=\\\"X-UA-Compatible\\\" content=\\\"IE=Edge\\\"><meta name=\\\"robots\\\" content=\\\"noindex,nofollow\\\"><meta name=\\\"viewport\\\" content=\\\"width=device-width,initial-scale=1\\\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\\\"Seg","stack":"Error: Login failed HTTP 403: \"<!DOCTYPE html><html lang=\\\"en-US\\\"><head><title>Just a moment...</title><meta http-equiv=\\\"Content-Type\\\" content=\\\"text/html; charset=UTF-8\\\"><meta http-equiv=\\\"X-UA-Compatible\\\" content=\\\"IE=Edge\\\"><meta name=\\\"robots\\\" content=\\\"noindex,nofollow\\\"><meta name=\\\"viewport\\\" content=\\\"width=device-width,initial-scale=1\\\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\\\"Seg\n    at loginToApollo (/Users/arshtyagi/Desktop/try/auth.js:162:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async /Users/arshtyagi/Desktop/try/sessionManager.js:187:25"}
+2026-03-14 02:29:38.666 [info] SIGINT received — shutting down
+2026-03-14 02:31:19.296 [info] Initialising session manager...
+2026-03-14 02:31:19.299 [info] SessionManager: loaded 1 account(s)
+2026-03-14 02:31:19.300 [info] Starting Apollo login {"accountId":"account_1"}
+2026-03-14 02:31:19.300 [info] Requesting CF clearance from CapSolver
+2026-03-14 02:31:19.327 [info] Apollo API service listening on port 3000
+2026-03-14 02:31:21.291 [info] CapSolver task created {"taskId":"31cdd661-b521-420c-ab73-35681c83bcc3"}
+2026-03-14 02:31:26.610 [error] Login attempt failed {"accountId":"account_1","attempt":1,"err":"CapSolver poll error: Cloudflare challenge not found! the 'html' field is required","stack":"Error: CapSolver poll error: Cloudflare challenge not found! the 'html' field is required\n    at getCfClearance (/Users/arshtyagi/Desktop/try/auth.js:68:32)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async loginToApollo (/Users/arshtyagi/Desktop/try/auth.js:88:38)\n    at async /Users/arshtyagi/Desktop/try/sessionManager.js:187:25"}
+2026-03-14 02:31:31.611 [info] Starting Apollo login {"accountId":"account_1"}
+2026-03-14 02:31:31.612 [info] Requesting CF clearance from CapSolver
+2026-03-14 02:31:33.233 [info] CapSolver task created {"taskId":"bde16a17-26be-4a3a-9622-ba872d0002e9"}
+2026-03-14 02:31:38.552 [error] Login attempt failed {"accountId":"account_1","attempt":2,"err":"CapSolver poll error: Cloudflare challenge not found! the 'html' field is required","stack":"Error: CapSolver poll error: Cloudflare challenge not found! the 'html' field is required\n    at getCfClearance (/Users/arshtyagi/Desktop/try/auth.js:68:32)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async loginToApollo (/Users/arshtyagi/Desktop/try/auth.js:88:38)\n    at async /Users/arshtyagi/Desktop/try/sessionManager.js:187:25"}
+2026-03-14 02:31:40.952 [info] SIGINT received — shutting down
+2026-03-14 02:34:19.475 [info] Initialising session manager...
+2026-03-14 02:34:19.477 [info] SessionManager: loaded 1 account(s)
+2026-03-14 02:34:19.478 [info] Starting Apollo login {"accountId":"account_1"}
+2026-03-14 02:34:19.478 [info] Fetching CF challenge HTML {"url":"https://app.apollo.io/api/v1/auth/login"}
+2026-03-14 02:34:19.491 [info] Apollo API service listening on port 3000
+2026-03-14 02:34:22.841 [info] Challenge probe {"url":"https://app.apollo.io/api/v1/auth/login","status":403,"length":9362,"hasCF":true}
+2026-03-14 02:34:22.841 [info] Sending CF challenge to CapSolver with HTML {"htmlLength":9362}
+2026-03-14 02:34:24.743 [info] CapSolver task created {"taskId":"0582bd51-c5c4-4f3d-8afa-527ec8beef8a"}
+2026-03-14 02:34:32.216 [error] Login attempt failed {"accountId":"account_1","attempt":1,"err":"CapSolver poll error: Failed！ Please check if the userAgent and proxy IP you sent match those in your code.","stack":"Error: CapSolver poll error: Failed！ Please check if the userAgent and proxy IP you sent match those in your code.\n    at getCfClearance (/Users/arshtyagi/Desktop/try/auth.js:134:32)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async loginToApollo (/Users/arshtyagi/Desktop/try/auth.js:153:38)\n    at async /Users/arshtyagi/Desktop/try/sessionManager.js:187:25"}
+2026-03-14 02:34:37.217 [info] Starting Apollo login {"accountId":"account_1"}
+2026-03-14 02:34:37.218 [info] Fetching CF challenge HTML {"url":"https://app.apollo.io/api/v1/auth/login"}
+2026-03-14 02:34:39.824 [info] SIGINT received — shutting down
+2026-03-14 02:38:39.460 [info] Initialising session manager...
+2026-03-14 02:38:39.463 [info] SessionManager: loaded 1 account(s)
+2026-03-14 02:38:39.463 [info] Starting Apollo login {"accountId":"account_1"}
+2026-03-14 02:38:39.464 [info] Fetching CF challenge HTML {"url":"https://app.apollo.io/api/v1/auth/login"}
+2026-03-14 02:38:39.478 [info] Apollo API service listening on port 3000
+2026-03-14 02:38:41.266 [info] Challenge probe {"url":"https://app.apollo.io/api/v1/auth/login","status":403,"length":9362,"hasCF":true}
+2026-03-14 02:38:41.267 [info] Sending CF challenge to CapSolver with HTML {"htmlLength":9362}
+2026-03-14 02:38:47.103 [info] CapSolver task created {"taskId":"2a44327b-b7b0-40e2-9f4b-cf5f6ea446ef"}
+2026-03-14 02:39:03.698 [error] Login attempt failed {"accountId":"account_1","attempt":1,"err":"CapSolver poll error: Failed！ Please check if the userAgent and proxy IP you sent match those in your code.","stack":"Error: CapSolver poll error: Failed！ Please check if the userAgent and proxy IP you sent match those in your code.\n    at getCfClearance (/Users/arshtyagi/Desktop/try/auth.js:134:32)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async loginToApollo (/Users/arshtyagi/Desktop/try/auth.js:153:38)\n    at async /Users/arshtyagi/Desktop/try/sessionManager.js:187:25"}
+2026-03-14 02:39:08.700 [info] Starting Apollo login {"accountId":"account_1"}
+2026-03-14 02:39:08.701 [info] Fetching CF challenge HTML {"url":"https://app.apollo.io/api/v1/auth/login"}
+2026-03-14 02:39:09.269 [info] SIGINT received — shutting down
+2026-03-14 02:40:56.048 [info] Initialising session manager...
+2026-03-14 02:40:56.050 [info] SessionManager: loaded 1 account(s)
+2026-03-14 02:40:56.051 [info] Starting Apollo login via Playwright {"accountId":"account_1"}
+2026-03-14 02:40:56.055 [info] Apollo API service listening on port 3000
+2026-03-14 02:40:57.202 [info] Navigating to Apollo login {"accountId":"account_1"}
+2026-03-14 02:41:14.409 [info] Filling login form {"accountId":"account_1"}
+2026-03-14 02:41:15.639 [info] Login form submitted {"accountId":"account_1"}
+2026-03-14 02:44:19.850 [info] SIGINT received — shutting down
+2026-03-14 02:44:21.263 [info] Initialising session manager...
+2026-03-14 02:44:21.265 [info] SessionManager: loaded 1 account(s)
+2026-03-14 02:44:21.266 [info] Starting Apollo login via Playwright {"accountId":"account_1"}
+2026-03-14 02:44:21.269 [info] Apollo API service listening on port 3000
+2026-03-14 02:44:21.908 [info] Navigating to Apollo login {"accountId":"account_1"}
+2026-03-14 02:44:41.536 [info] Filling login form {"accountId":"account_1"}
+2026-03-14 02:44:42.724 [info] Login form submitted {"accountId":"account_1"}
+2026-03-14 02:44:45.725 [info] Checking for OTP field on page {"accountId":"account_1"}
+2026-03-14 02:44:45.726 [info] Current page URL {"url":"https://app.apollo.io/#/login"}
+2026-03-14 02:45:58.999 [info] SIGINT received — shutting down
+2026-03-14 02:46:01.808 [info] Initialising session manager...
+2026-03-14 02:46:01.810 [info] SessionManager: loaded 1 account(s)
+2026-03-14 02:46:01.811 [info] Starting Apollo login via Playwright {"accountId":"account_1"}
+2026-03-14 02:46:01.815 [info] Apollo API service listening on port 3000
+2026-03-14 02:46:02.429 [info] Navigating to Apollo login {"accountId":"account_1"}
+2026-03-14 02:46:19.909 [info] Filling login form {"accountId":"account_1"}
+2026-03-14 02:46:21.080 [info] Login form submitted {"accountId":"account_1"}
+2026-03-14 02:46:24.081 [info] Checking for OTP field on page {"accountId":"account_1"}
+2026-03-14 02:46:24.082 [info] Current page URL {"url":"https://app.apollo.io/#/login"}
+2026-03-14 02:47:40.595 [info] SIGINT received — shutting down
+2026-03-14 02:47:42.879 [info] Initialising session manager...
+2026-03-14 02:47:42.882 [info] SessionManager: loaded 1 account(s)
+2026-03-14 02:47:42.882 [info] Starting Apollo login via Playwright {"accountId":"account_1"}
+2026-03-14 02:47:42.886 [info] Apollo API service listening on port 3000
+2026-03-14 02:47:43.457 [info] Navigating to Apollo login {"accountId":"account_1"}
+2026-03-14 02:48:00.273 [info] Filling login form {"accountId":"account_1"}
+2026-03-14 02:48:01.439 [info] Screenshot saved to /tmp/before-submit.png
+2026-03-14 02:48:01.442 [info] Buttons found on page {"buttons":[{"text":"Log In with Google","type":"button","class":"zp_NbJqo zp_aXSS7 zp_k5od4 zp_eNeHD"},{"text":"Log In with Microsoft","type":"button","class":"zp_NbJqo zp_aXSS7 zp_k5od4 zp_eNeHD"},{"text":"Sign in with Apple","type":"button","class":"zp_eF1p6"},{"text":"","type":"button","class":"zp_NbJqo zp_hgBYR"},{"text":"Log In","type":"submit","class":"zp_NbJqo zp_aXSS7 zp_rGSIr zp_eNeHD"}]}
+2026-03-14 02:48:01.490 [info] Login form submitted {"accountId":"account_1"}
+2026-03-14 02:48:26.629 [info] SIGINT received — shutting down
+2026-03-14 02:50:44.767 [info] Initialising session manager...
+2026-03-14 02:50:44.770 [info] SessionManager: loaded 1 account(s)
+2026-03-14 02:50:44.770 [info] Starting Apollo login via Playwright {"accountId":"account_1"}
+2026-03-14 02:50:44.775 [info] Apollo API service listening on port 3000
+2026-03-14 02:50:45.691 [info] Navigating to Apollo login {"accountId":"account_1"}
+2026-03-14 02:51:07.574 [info] Email field {"correct":true,"filled":"n.a.y.e.e.m.f.r.e.elan.cee+campaign.0bczs.8rg45200@gmail.com"}
+2026-03-14 02:51:09.404 [info] Before submit screenshot saved to Desktop
+2026-03-14 02:51:09.466 [info] Login button clicked {"accountId":"account_1"}
+2026-03-14 02:51:44.543 [error] Login attempt failed {"accountId":"account_1","attempt":1,"err":"page.screenshot: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - taking page screenshot\u001b[22m\n","stack":"page.screenshot: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - taking page screenshot\u001b[22m\n\n    at loginToApollo (/Users/arshtyagi/Desktop/try/auth.js:83:16)\n    at async /Users/arshtyagi/Desktop/try/sessionManager.js:187:25"}
+2026-03-14 02:51:49.545 [info] Starting Apollo login via Playwright {"accountId":"account_1"}
+2026-03-14 02:51:49.965 [info] Navigating to Apollo login {"accountId":"account_1"}
+2026-03-14 02:52:11.453 [info] Email field {"correct":true,"filled":"n.a.y.e.e.m.f.r.e.elan.cee+campaign.0bczs.8rg45200@gmail.com"}
+2026-03-14 02:52:13.283 [info] Before submit screenshot saved to Desktop
+2026-03-14 02:52:13.318 [info] Login button clicked {"accountId":"account_1"}
+2026-03-14 02:52:48.338 [error] Login attempt failed {"accountId":"account_1","attempt":2,"err":"page.screenshot: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - taking page screenshot\u001b[22m\n","stack":"page.screenshot: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - taking page screenshot\u001b[22m\n\n    at loginToApollo (/Users/arshtyagi/Desktop/try/auth.js:83:16)\n    at async /Users/arshtyagi/Desktop/try/sessionManager.js:187:25"}
+2026-03-14 02:52:53.589 [info] SIGINT received — shutting down
+2026-03-14 02:55:09.596 [info] Initialising session manager...
+2026-03-14 02:55:09.598 [info] SessionManager: loaded 1 account(s)
+2026-03-14 02:55:09.599 [info] Starting Apollo login via Playwright {"accountId":"account_1"}
+2026-03-14 02:55:09.605 [info] Apollo API service listening on port 3000
+2026-03-14 02:55:10.785 [info] Navigating to Apollo login {"accountId":"account_1"}
+2026-03-14 02:55:34.157 [info] Email field {"correct":true,"filled":"n.a.y.e.e.m.f.r.e.elan.cee+campaign.0bczs.8rg45200@gmail.com"}
+2026-03-14 02:55:36.006 [info] Before submit screenshot saved to Desktop
+2026-03-14 02:55:36.057 [info] Login button clicked {"accountId":"account_1"}
+2026-03-14 02:56:11.103 [error] Login attempt failed {"accountId":"account_1","attempt":1,"err":"page.screenshot: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - taking page screenshot\u001b[22m\n","stack":"page.screenshot: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - taking page screenshot\u001b[22m\n\n    at loginToApollo (/Users/arshtyagi/Desktop/try/auth.js:83:16)\n    at async /Users/arshtyagi/Desktop/try/sessionManager.js:187:25"}
+2026-03-14 02:56:16.105 [info] Starting Apollo login via Playwright {"accountId":"account_1"}
+2026-03-14 02:56:16.408 [info] Navigating to Apollo login {"accountId":"account_1"}
+2026-03-14 02:56:23.919 [info] SIGINT received — shutting down
+2026-03-14 02:57:05.326 [info] Initialising session manager...
+2026-03-14 02:57:05.328 [info] SessionManager: loaded 1 account(s)
+2026-03-14 02:57:05.329 [info] Starting Apollo login via Playwright {"accountId":"account_1"}
+2026-03-14 02:57:05.332 [info] Apollo API service listening on port 3000
+2026-03-14 02:57:05.946 [info] Navigating to Apollo login {"accountId":"account_1"}
+2026-03-14 02:57:07.619 [info] Page navigated {"url":"https://app.apollo.io/#/login"}
+2026-03-14 02:57:29.966 [info] Login button clicked — waiting for Cloudflare + redirect {"accountId":"account_1"}
+2026-03-14 02:58:44.110 [info] SIGINT received — shutting down
+2026-03-14 03:01:35.666 [info] Initialising session manager...
+2026-03-14 03:01:35.668 [info] SessionManager: loaded 1 account(s)
+2026-03-14 03:01:35.669 [info] Starting Apollo login via Playwright {"accountId":"account_1"}
+2026-03-14 03:01:35.674 [info] Apollo API service listening on port 3000
+2026-03-14 03:01:36.611 [info] Navigating to Apollo login {"accountId":"account_1"}
+2026-03-14 03:01:38.874 [info] Page navigated {"url":"https://app.apollo.io/#/login"}
+2026-03-14 03:02:01.445 [info] Login button clicked — waiting for Cloudflare + redirect {"accountId":"account_1"}
+2026-03-14 03:02:06.449 [info] Waiting for login... {"url":"https://app.apollo.io/#/login","title":"timeout","elapsed":"5s"}
+2026-03-14 03:03:59.270 [info] SIGINT received — shutting down
+2026-03-14 03:04:45.099 [info] Initialising session manager...
+2026-03-14 03:04:45.102 [info] SessionManager: loaded 1 account(s)
+2026-03-14 03:04:45.103 [info] Starting Apollo login via Playwright {"accountId":"account_1"}
+2026-03-14 03:04:45.107 [info] Apollo API service listening on port 3000
+2026-03-14 03:04:46.030 [info] Step 1: Loading login page
+2026-03-14 03:04:48.534 [info] 🔀 Navigation {"url":"https://app.apollo.io/#/login"}
+2026-03-14 03:05:05.588 [info] 📸 Screenshot saved: /Users/arshtyagi/Desktop/apollo-screenshots/01-login-page-loaded.png {"url":"https://app.apollo.io/#/login"}
+2026-03-14 03:05:05.588 [info] Step 2: Filling email
+2026-03-14 03:05:08.924 [info] Email filled {"correct":true}
+2026-03-14 03:05:09.225 [info] Step 3: Filling password
+2026-03-14 03:05:10.398 [info] 📸 Screenshot saved: /Users/arshtyagi/Desktop/apollo-screenshots/02-form-filled.png {"url":"https://app.apollo.io/#/login"}
+2026-03-14 03:05:10.398 [info] Step 4: Clicking Log In button
+2026-03-14 03:05:22.443 [warn] Screenshot failed {"label":"after-click-2s","err":"page.screenshot: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - taking page screenshot\u001b[22m\n"}
+2026-03-14 03:05:22.444 [info] 📸 Screenshot saved: /Users/arshtyagi/Desktop/apollo-screenshots/03-after-click-2s.png {"url":"https://app.apollo.io/#/login"}
+2026-03-14 03:05:22.444 [info] Step 5: Waiting for page response (screenshots every 10s)
+2026-03-14 03:05:37.446 [info] ⏱ Check 1/12 {"url":"https://app.apollo.io/#/login","title":"...loading","elapsed":"10s"}
+2026-03-14 03:05:47.449 [warn] Screenshot failed {"label":"wait-10s","err":"page.screenshot: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - taking page screenshot\u001b[22m\n"}
+2026-03-14 03:05:47.449 [info] 📸 Screenshot saved: /Users/arshtyagi/Desktop/apollo-screenshots/04-wait-10s.png {"url":"https://app.apollo.io/#/login"}
+2026-03-14 03:06:57.997 [info] SIGINT received — shutting down
+2026-03-14 03:07:42.289 [info] Initialising session manager...
+2026-03-14 03:07:42.292 [info] SessionManager: loaded 1 account(s)
+2026-03-14 03:07:42.292 [info] Starting Apollo login via Playwright {"accountId":"account_1"}
+2026-03-14 03:07:42.297 [info] Apollo API service listening on port 3000
+2026-03-14 03:07:43.253 [info] Step 1: Loading login page
+2026-03-14 03:07:44.959 [info] 🔀 Nav {"url":"https://app.apollo.io/#/login"}
+2026-03-14 03:08:04.856 [info] 📸 01-login-loaded {"url":"https://app.apollo.io/#/login"}
+2026-03-14 03:08:04.857 [info] Step 2: Filling form
+2026-03-14 03:08:09.310 [info] 📸 02-form-filled {"url":"https://app.apollo.io/#/login"}
+2026-03-14 03:08:09.310 [info] Step 3: Clicking Log In
+2026-03-14 03:08:09.351 [info] Login clicked — Cloudflare challenge may run for 30-60s, DO NOT interrupt
+2026-03-14 03:08:09.351 [info] Step 4: Waiting for post-login navigation (up to 3 min)...
+2026-03-14 03:08:09.352 [warn] No redirect after 3 min — checking state
+2026-03-14 03:08:41.357 [warn] Screenshot failed {"label":"03-after-redirect","err":"page.screenshot: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - taking page screenshot\u001b[22m\n"}
+2026-03-14 03:08:41.358 [info] 📸 03-after-redirect {"url":"https://app.apollo.io/#/login"}
+2026-03-14 03:10:01.289 [info] SIGINT received — shutting down
+2026-03-14 03:10:04.815 [info] Initialising session manager...
+2026-03-14 03:10:04.817 [info] SessionManager: loaded 1 account(s)
+2026-03-14 03:10:04.818 [info] Starting Apollo login via Playwright {"accountId":"account_1"}
+2026-03-14 03:10:04.822 [info] Apollo API service listening on port 3000
+2026-03-14 03:10:09.483 [info] Step 1: Loading login page
+2026-03-14 03:10:11.082 [info] 🔀 Nav {"url":"https://app.apollo.io/#/login"}
+2026-03-14 03:10:25.671 [info] 📸 01-login-loaded {"url":"https://app.apollo.io/#/login"}
+2026-03-14 03:10:25.671 [info] Step 2: Filling form
+2026-03-14 03:10:34.161 [info] 📸 02-form-filled {"url":"https://app.apollo.io/#/login"}
+2026-03-14 03:10:34.161 [info] Step 3: Clicking Log In
+2026-03-14 03:10:34.705 [info] Login clicked — Cloudflare challenge may run for 30-60s, DO NOT interrupt
+2026-03-14 03:10:34.705 [info] Step 4: Waiting for post-login navigation (up to 3 min)...
+2026-03-14 03:10:34.706 [warn] No redirect after 3 min — checking state
+2026-03-14 03:10:55.905 [info] 🔀 Nav {"url":"https://app.apollo.io/#/ato/verify-email"}
+2026-03-14 03:11:06.652 [info] 🔀 Nav {"url":"https://app.apollo.io/#/login"}
+2026-03-14 03:11:06.782 [warn] Screenshot failed {"label":"03-after-redirect","err":"page.screenshot: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - taking page screenshot\u001b[22m\n\u001b[2m  - waiting for fonts to load...\u001b[22m\n\u001b[2m  - fonts loaded\u001b[22m\n"}
+2026-03-14 03:11:06.782 [info] 📸 03-after-redirect {"url":"https://app.apollo.io/#/login"}
+2026-03-14 03:11:06.812 [info] Page state {"url":"https://app.apollo.io/#/login","title":"Login - Apollo"}
+2026-03-14 03:11:06.873 [info] OTP visible {"otpVisible":"[REDACTED]"}
+2026-03-14 03:11:07.261 [info] 📸 08-final {"url":"https://app.apollo.io/#/login"}
+2026-03-14 03:11:07.261 [info] Final state {"url":"https://app.apollo.io/#/login"}
+2026-03-14 03:11:07.264 [info] Cookies {"count":17,"keys":["dwnjrn","dwndvc","__cf_bm","ZP_Pricing_Split_Test_Variant","_cfuvid","__hstc","hubspotutk","__hssrc","__hssc","_cioanonid","__cf_bm","_cfuvid","_gcl_au","zp_device_id","X-CSRF-TOKEN","_leadgenie_session","AMP_122a93c7d9"]}
+2026-03-14 03:11:07.999 [info] CSRF {"status":404,"hasCsrf":false}
+2026-03-14 03:11:08.017 [info] ✅ Login complete {"accountId":"account_1"}
+2026-03-14 03:11:08.577 [info] Session stored {"accountId":"account_1"}
+2026-03-14 03:11:17.904 [info] SIGINT received — shutting down
+2026-03-14 03:11:19.608 [info] Initialising session manager...
+2026-03-14 03:11:19.611 [info] SessionManager: loaded 1 account(s)
+2026-03-14 03:11:19.612 [info] Starting Apollo login via Playwright {"accountId":"account_1"}
+2026-03-14 03:11:19.615 [info] Apollo API service listening on port 3000
+2026-03-14 03:11:20.974 [info] Step 1: Loading login page
+2026-03-14 03:11:22.513 [info] 🔀 Nav {"url":"https://app.apollo.io/#/login"}
+2026-03-14 03:11:37.385 [info] 📸 01-login-loaded {"url":"https://app.apollo.io/#/login"}
+2026-03-14 03:11:37.386 [info] Step 2: Filling form
+2026-03-14 03:11:46.170 [info] 📸 02-form-filled {"url":"https://app.apollo.io/#/login"}
+2026-03-14 03:11:46.170 [info] Step 3: Clicking Log In
+2026-03-14 03:11:46.973 [info] Login clicked — Cloudflare challenge may run for 30-60s, DO NOT interrupt
+2026-03-14 03:11:46.973 [info] Step 4: Waiting for post-login navigation (up to 3 min)...
+2026-03-14 03:11:46.974 [warn] No redirect after 3 min — checking state
+2026-03-14 03:12:18.980 [warn] Screenshot failed {"label":"03-after-redirect","err":"page.screenshot: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - taking page screenshot\u001b[22m\n"}
+2026-03-14 03:12:18.981 [info] 📸 03-after-redirect {"url":"https://app.apollo.io/#/login"}
+2026-03-14 03:13:13.635 [info] SIGINT received — shutting down
+2026-03-14 03:13:16.002 [info] Initialising session manager...
+2026-03-14 03:13:16.005 [info] SessionManager: loaded 1 account(s)
+2026-03-14 03:13:16.005 [info] Starting Apollo login via Playwright {"accountId":"account_1"}
+2026-03-14 03:13:16.009 [info] Apollo API service listening on port 3000
+2026-03-14 03:13:17.244 [info] Step 1: Loading login page
+2026-03-14 03:13:18.557 [info] 🔀 Nav {"url":"https://app.apollo.io/#/login"}
+2026-03-14 03:13:35.806 [info] 📸 01-login-loaded {"url":"https://app.apollo.io/#/login"}
+2026-03-14 03:13:35.806 [info] Step 2: Filling form
+2026-03-14 03:13:44.799 [info] 📸 02-form-filled {"url":"https://app.apollo.io/#/login"}
+2026-03-14 03:13:44.800 [info] Step 3: Clicking Log In
+2026-03-14 03:13:47.978 [info] Trying Enter key on password field
+2026-03-14 03:14:18.646 [error] Login attempt failed {"accountId":"account_1","attempt":1,"err":"page.focus: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input[type=\"password\"]')\u001b[22m\n\u001b[2m    - waiting for\" https://accounts.google.com/o/oauth2/auth?access_type=offline&client_id=499298628135-btb03c1lpe4146utgj65me0pujfpri43.apps.googleusercontent.com&redirect_uri=https://app.apollo.io/api/v1/email_accoun…\" navigation to finish...\u001b[22m\n","stack":"page.focus: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input[type=\"password\"]')\u001b[22m\n\u001b[2m    - waiting for\" https://accounts.google.com/o/oauth2/auth?access_type=offline&client_id=499298628135-btb03c1lpe4146utgj65me0pujfpri43.apps.googleusercontent.com&redirect_uri=https://app.apollo.io/api/v1/email_accoun…\" navigation to finish...\u001b[22m\n\n    at loginToApollo (/Users/arshtyagi/Desktop/try/auth.js:93:18)\n    at async /Users/arshtyagi/Desktop/try/sessionManager.js:187:25"}
+2026-03-14 03:14:23.649 [info] Starting Apollo login via Playwright {"accountId":"account_1"}
+2026-03-14 03:14:24.471 [info] Step 1: Loading login page
+2026-03-14 03:14:26.013 [info] 🔀 Nav {"url":"https://app.apollo.io/#/login"}
+2026-03-14 03:14:40.374 [info] 📸 01-login-loaded {"url":"https://app.apollo.io/#/login"}
+2026-03-14 03:14:40.374 [info] Step 2: Filling form
+2026-03-14 03:14:48.863 [info] 📸 02-form-filled {"url":"https://app.apollo.io/#/login"}
+2026-03-14 03:14:48.863 [info] Step 3: Clicking Log In
+2026-03-14 03:14:51.417 [info] Trying Enter key on password field
+2026-03-14 03:15:22.088 [error] Login attempt failed {"accountId":"account_1","attempt":2,"err":"page.focus: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input[type=\"password\"]')\u001b[22m\n\u001b[2m    - waiting for\" https://accounts.google.com/o/oauth2/auth?access_type=offline&client_id=499298628135-btb03c1lpe4146utgj65me0pujfpri43.apps.googleusercontent.com&redirect_uri=https://app.apollo.io/api/v1/email_accoun…\" navigation to finish...\u001b[22m\n","stack":"page.focus: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input[type=\"password\"]')\u001b[22m\n\u001b[2m    - waiting for\" https://accounts.google.com/o/oauth2/auth?access_type=offline&client_id=499298628135-btb03c1lpe4146utgj65me0pujfpri43.apps.googleusercontent.com&redirect_uri=https://app.apollo.io/api/v1/email_accoun…\" navigation to finish...\u001b[22m\n\n    at loginToApollo (/Users/arshtyagi/Desktop/try/auth.js:93:18)\n    at async /Users/arshtyagi/Desktop/try/sessionManager.js:187:25"}
+2026-03-14 03:15:24.387 [info] SIGINT received — shutting down
+2026-03-14 03:15:25.891 [info] Initialising session manager...
+2026-03-14 03:15:25.893 [info] SessionManager: loaded 1 account(s)
+2026-03-14 03:15:25.894 [info] Starting Apollo login via Playwright {"accountId":"account_1"}
+2026-03-14 03:15:25.897 [info] Apollo API service listening on port 3000
+2026-03-14 03:15:27.081 [info] Step 1: Loading login page
+2026-03-14 03:15:28.421 [info] 🔀 Nav {"url":"https://app.apollo.io/#/login"}
+2026-03-14 03:15:43.126 [info] 📸 01-login-loaded {"url":"https://app.apollo.io/#/login"}
+2026-03-14 03:15:43.126 [info] Step 2: Filling form
+2026-03-14 03:15:51.921 [info] 📸 02-form-filled {"url":"https://app.apollo.io/#/login"}
+2026-03-14 03:15:51.921 [info] Step 3: Clicking Log In
+2026-03-14 03:15:52.025 [info] JS click result {"clicked":true}
+2026-03-14 03:15:53.422 [info] 🔀 Nav {"url":"https://app.apollo.io/#/ato/verify-email"}
+2026-03-14 03:15:54.026 [info] After all click attempts {"url":"https://app.apollo.io/#/ato/verify-email"}
+2026-03-14 03:15:54.026 [info] Login clicked — Cloudflare challenge may run for 30-60s, DO NOT interrupt
+2026-03-14 03:15:54.026 [info] Step 4: Waiting for post-login navigation (up to 3 min)...
+2026-03-14 03:15:54.027 [warn] No redirect after 3 min — checking state
+2026-03-14 03:15:56.094 [info] 📸 03-after-redirect {"url":"https://app.apollo.io/#/ato/verify-email"}
+2026-03-14 03:15:56.148 [info] Page state {"url":"https://app.apollo.io/#/ato/verify-email","title":"Login - Apollo"}
+2026-03-14 03:15:56.168 [info] OTP visible {"otpVisible":"[REDACTED]"}
+2026-03-14 03:15:56.435 [info] 📸 04-otp-screen {"url":"https://app.apollo.io/#/ato/verify-email"}
+2026-03-14 03:15:56.435 [info] 📧 Fetching OTP from Gmail
+2026-03-14 03:15:56.435 [info] Waiting for OTP email {"apolloEmail":"n.a.y.e.e.m.f.r.e.elan.cee+campaign.0bczs.8rg45200@gmail.com"}
+2026-03-14 03:16:01.287 [info] OTP received successfully
+2026-03-14 03:16:01.299 [info] OTP received — submitting
+2026-03-14 03:16:01.991 [info] 📸 05-otp-filled {"url":"https://app.apollo.io/#/ato/verify-email"}
+2026-03-14 03:16:03.208 [info] 🔀 Nav {"url":"https://app.apollo.io/#/login?error=401&code=MFA"}
+2026-03-14 03:16:03.230 [info] 🔀 Nav {"url":"https://app.apollo.io/#/"}
+2026-03-14 03:16:03.256 [info] 🔀 Nav {"url":"https://app.apollo.io/#/control-center"}
+2026-03-14 03:16:03.277 [info] 🔀 Nav {"url":"https://app.apollo.io/#/home"}
+2026-03-14 03:16:06.051 [info] 📸 06-otp-submitted {"url":"https://app.apollo.io/#/home"}
+2026-03-14 03:16:06.384 [info] 📸 07-after-otp-redirect {"url":"https://app.apollo.io/#/home"}
+2026-03-14 03:16:06.744 [info] 📸 08-final {"url":"https://app.apollo.io/#/home"}
+2026-03-14 03:16:06.744 [info] Final state {"url":"https://app.apollo.io/#/home"}
+2026-03-14 03:16:06.746 [info] Cookies {"count":20,"keys":["dwnjrn","dwndvc","__cf_bm","ZP_Pricing_Split_Test_Variant","_cfuvid","__hstc","hubspotutk","__hssrc","__hssc","_cioanonid","__cf_bm","_cfuvid","_gcl_au","zp_device_id","remember_token_leadgenie_v2","app_token","_cioid","AMP_122a93c7d9","X-CSRF-TOKEN","_leadgenie_session"]}
+2026-03-14 03:16:07.203 [info] CSRF {"status":404,"hasCsrf":false}
+2026-03-14 03:16:07.220 [info] ✅ Login complete {"accountId":"account_1"}
+2026-03-14 03:16:07.391 [info] Session stored {"accountId":"account_1"}
+2026-03-14 03:18:21.102 [info] SIGINT received — shutting down
+2026-03-14 03:18:23.365 [info] Initialising session manager...
+2026-03-14 03:18:23.368 [info] SessionManager: loaded 1 account(s)
+2026-03-14 03:18:23.369 [info] Starting Apollo login via Playwright {"accountId":"account_1"}
+2026-03-14 03:18:23.373 [info] Apollo API service listening on port 3000
+2026-03-14 03:18:25.331 [info] Step 1: Loading login page
+2026-03-14 03:18:27.532 [info] 🔀 Nav {"url":"https://app.apollo.io/#/login"}
+2026-03-14 03:18:41.574 [info] 📸 01-login-loaded {"url":"https://app.apollo.io/#/login"}
+2026-03-14 03:18:41.574 [info] Step 2: Filling form
+2026-03-14 03:18:49.375 [info] 📸 02-form-filled {"url":"https://app.apollo.io/#/login"}
+2026-03-14 03:18:49.376 [info] Step 3: Clicking Log In
+2026-03-14 03:18:49.403 [info] JS click result {"clicked":true}
+2026-03-14 03:18:51.034 [info] 🔀 Nav {"url":"https://app.apollo.io/#/"}
+2026-03-14 03:18:51.052 [info] 🔀 Nav {"url":"https://app.apollo.io/#/control-center"}
+2026-03-14 03:18:51.070 [info] 🔀 Nav {"url":"https://app.apollo.io/#/home"}
+2026-03-14 03:18:51.404 [info] After all click attempts {"url":"https://app.apollo.io/#/home"}
+2026-03-14 03:18:51.404 [info] Login clicked — Cloudflare challenge may run for 30-60s, DO NOT interrupt
+2026-03-14 03:18:51.405 [info] Step 4: Waiting for post-login navigation (up to 3 min)...
+2026-03-14 03:18:51.406 [warn] No redirect after 3 min — checking state
+2026-03-14 03:18:53.447 [info] 📸 03-after-redirect {"url":"https://app.apollo.io/#/home"}
+2026-03-14 03:18:53.448 [info] Page state {"url":"https://app.apollo.io/#/home","title":"Login - Apollo"}
+2026-03-14 03:18:53.450 [info] OTP visible {"otpVisible":"[REDACTED]"}
+2026-03-14 03:18:53.474 [info] 📸 08-final {"url":"https://app.apollo.io/#/home"}
+2026-03-14 03:18:53.474 [info] Final state {"url":"https://app.apollo.io/#/home"}
+2026-03-14 03:18:53.476 [info] Cookies {"count":21,"keys":["dwnjrn","dwndvc","__cf_bm","_cfuvid","__hstc","hubspotutk","__hssrc","__hssc","_cioanonid","__cf_bm","_cfuvid","_gcl_au","zp_device_id","remember_token_leadgenie_v2","app_token","ZP_LATEST_LOGIN_PRICING_VARIANT","ZP_Pricing_Split_Test_Variant","_cioid","AMP_122a93c7d9","X-CSRF-TOKEN","_leadgenie_session"]}
+2026-03-14 03:18:53.923 [info] CSRF {"status":404,"hasCsrf":false}
+2026-03-14 03:18:53.943 [info] ✅ Login complete {"accountId":"account_1"}
+2026-03-14 03:18:54.039 [info] Session stored {"accountId":"account_1"}
+2026-03-14 03:23:37.528 [info] Request completed {"method":"GET","path":"/health","status":200,"latencyMs":5,"requestId":"0efd3601-8a36-487e-aec6-922d49ff1ef4"}
+2026-03-14 03:23:57.946 [info] Request completed {"method":"OPTIONS","path":"/leads/count","status":404,"latencyMs":1,"requestId":"d1051c92-2257-42e2-8fa9-88d0f5af8dc9"}
+2026-03-14 03:24:02.614 [info] Request completed {"method":"OPTIONS","path":"/leads/count","status":404,"latencyMs":1,"requestId":"b8384907-4282-4437-a654-c001e23f7270"}
+2026-03-14 03:24:03.228 [info] Request completed {"method":"OPTIONS","path":"/leads/count","status":404,"latencyMs":1,"requestId":"9454f6ca-b51b-4ff2-b624-918ef8a86011"}
+2026-03-14 03:24:11.389 [info] Request completed {"method":"OPTIONS","path":"/leads/count","status":404,"latencyMs":1,"requestId":"525ad78c-147a-4287-9165-fd27bbe457fd"}
+2026-03-14 03:24:16.506 [info] Request completed {"method":"OPTIONS","path":"/leads/count","status":404,"latencyMs":1,"requestId":"a704a16c-74a4-4cba-83a7-0eb95193dea3"}
+2026-03-14 03:24:42.531 [info] Request completed {"method":"OPTIONS","path":"/leads/count","status":404,"latencyMs":1,"requestId":"955eb6b2-83e0-40c1-8819-f41b0aabb711"}
+2026-03-14 03:25:55.337 [info] SIGINT received — shutting down
+2026-03-14 03:25:57.787 [info] Initialising session manager...
+2026-03-14 03:25:57.789 [info] SessionManager: loaded 1 account(s)
+2026-03-14 03:25:57.790 [info] Starting Apollo login via Playwright {"accountId":"account_1"}
+2026-03-14 03:25:57.794 [info] Apollo API service listening on port 3000
+2026-03-14 03:25:59.708 [info] Step 1: Loading login page
+2026-03-14 03:26:01.754 [info] 🔀 Nav {"url":"https://app.apollo.io/#/login"}
+2026-03-14 03:26:16.593 [info] 📸 01-login-loaded {"url":"https://app.apollo.io/#/login"}
+2026-03-14 03:26:16.593 [info] Step 2: Filling form
+2026-03-14 03:26:24.395 [info] 📸 02-form-filled {"url":"https://app.apollo.io/#/login"}
+2026-03-14 03:26:24.395 [info] Step 3: Clicking Log In
+2026-03-14 03:26:24.422 [info] JS click result {"clicked":true}
+2026-03-14 03:26:26.423 [info] Still on login — trying Enter key
+2026-03-14 03:26:26.772 [info] 🔀 Nav {"url":"https://app.apollo.io/#/"}
+2026-03-14 03:26:26.793 [info] 🔀 Nav {"url":"https://app.apollo.io/#/control-center"}
+2026-03-14 03:26:26.811 [info] 🔀 Nav {"url":"https://app.apollo.io/#/home"}
+2026-03-14 03:26:29.432 [info] After all click attempts {"url":"https://app.apollo.io/#/home"}
+2026-03-14 03:26:29.433 [info] Login clicked — Cloudflare challenge may run for 30-60s, DO NOT interrupt
+2026-03-14 03:26:29.433 [info] Step 4: Waiting for post-login navigation (up to 3 min)...
+2026-03-14 03:26:29.434 [warn] No redirect after 3 min — checking state
+2026-03-14 03:26:31.481 [info] 📸 03-after-redirect {"url":"https://app.apollo.io/#/home"}
+2026-03-14 03:26:31.482 [info] Page state {"url":"https://app.apollo.io/#/home","title":"Login - Apollo"}
+2026-03-14 03:26:31.484 [info] OTP visible {"otpVisible":"[REDACTED]"}
+2026-03-14 03:26:31.526 [info] 📸 08-final {"url":"https://app.apollo.io/#/home"}
+2026-03-14 03:26:31.526 [info] Final state {"url":"https://app.apollo.io/#/home"}
+2026-03-14 03:26:31.527 [info] Cookies {"count":21,"keys":["dwnjrn","dwndvc","__cf_bm","_cfuvid","__hstc","hubspotutk","__hssrc","__hssc","_cioanonid","__cf_bm","_cfuvid","_gcl_au","zp_device_id","remember_token_leadgenie_v2","app_token","ZP_LATEST_LOGIN_PRICING_VARIANT","ZP_Pricing_Split_Test_Variant","_cioid","AMP_122a93c7d9","X-CSRF-TOKEN","_leadgenie_session"]}
+2026-03-14 03:26:31.969 [info] CSRF {"status":404,"hasCsrf":false}
+2026-03-14 03:26:31.990 [info] ✅ Login complete {"accountId":"account_1"}
+2026-03-14 03:26:32.068 [info] Session stored {"accountId":"account_1"}
+2026-03-14 03:26:37.503 [info] Request completed {"method":"POST","path":"/leads/count","status":400,"latencyMs":1,"requestId":"e6138bb3-635e-491b-9fa5-9f071d7a78ff"}
+2026-03-14 03:28:47.468 [info] Request completed {"method":"POST","path":"/leads/count","status":400,"latencyMs":2,"requestId":"bfae723b-f754-4b38-bc0e-bd73b0824950"}
+2026-03-14 03:30:13.838 [info] Request completed {"method":"POST","path":"/leads/count","status":400,"latencyMs":1,"requestId":"3f4f322a-9ff8-41b3-be70-f22184481273"}
+2026-03-14 03:30:28.015 [info] Request completed {"method":"POST","path":"/leads/count","status":400,"latencyMs":0,"requestId":"559329d0-e3f7-4c53-b918-029dcc6434f6"}
+2026-03-14 03:31:57.876 [info] Request completed {"method":"POST","path":"/leads/count","status":400,"latencyMs":1,"requestId":"60b36747-b5fb-4fcf-a86f-9cea71a0e3dd"}
+2026-03-14 03:33:07.249 [info] Initialising session manager...
+2026-03-14 03:33:07.251 [info] SessionManager: loaded 1 account(s)
+2026-03-14 03:33:07.252 [info] Starting Apollo login via Playwright {"accountId":"account_1"}
+2026-03-14 03:33:07.256 [info] Apollo API service listening on port 3000
+2026-03-14 03:33:08.244 [info] Step 1: Loading login page
+2026-03-14 03:33:10.475 [info] 🔀 Nav {"url":"https://app.apollo.io/#/login"}
+2026-03-14 03:33:23.550 [info] 📸 01-login-loaded {"url":"https://app.apollo.io/#/login"}
+2026-03-14 03:33:23.550 [info] Step 2: Filling form
+2026-03-14 03:33:27.336 [info] 📸 02-form-filled {"url":"https://app.apollo.io/#/login"}
+2026-03-14 03:33:27.337 [info] Step 3: Clicking Log In
+2026-03-14 03:33:27.364 [info] JS click result {"clicked":true}
+2026-03-14 03:33:29.110 [info] 🔀 Nav {"url":"https://app.apollo.io/#/"}
+2026-03-14 03:33:29.157 [info] 🔀 Nav {"url":"https://app.apollo.io/#/control-center"}
+2026-03-14 03:33:29.158 [info] 🔀 Nav {"url":"https://app.apollo.io/#/home"}
+2026-03-14 03:33:29.366 [info] After all click attempts {"url":"https://app.apollo.io/#/home"}
+2026-03-14 03:33:29.367 [info] Login clicked — Cloudflare challenge may run for 30-60s, DO NOT interrupt
+2026-03-14 03:33:29.367 [info] Step 4: Waiting for post-login navigation (up to 3 min)...
+2026-03-14 03:33:29.368 [warn] No redirect after 3 min — checking state
+2026-03-14 03:33:31.407 [info] 📸 03-after-redirect {"url":"https://app.apollo.io/#/home"}
+2026-03-14 03:33:31.409 [info] Page state {"url":"https://app.apollo.io/#/home","title":"Apollo"}
+2026-03-14 03:33:31.412 [info] OTP visible {"otpVisible":"[REDACTED]"}
+2026-03-14 03:33:31.440 [info] 📸 08-final {"url":"https://app.apollo.io/#/home"}
+2026-03-14 03:33:31.440 [info] Final state {"url":"https://app.apollo.io/#/home"}
+2026-03-14 03:33:31.442 [info] Cookies {"count":21,"keys":["dwnjrn","dwndvc","__cf_bm","_cfuvid","__hstc","hubspotutk","__hssrc","__hssc","_cioanonid","__cf_bm","_cfuvid","_gcl_au","zp_device_id","remember_token_leadgenie_v2","app_token","ZP_LATEST_LOGIN_PRICING_VARIANT","ZP_Pricing_Split_Test_Variant","_cioid","AMP_122a93c7d9","X-CSRF-TOKEN","_leadgenie_session"]}
+2026-03-14 03:33:31.856 [info] CSRF {"status":404,"hasCsrf":false}
+2026-03-14 03:33:31.878 [info] ✅ Login complete {"accountId":"account_1"}
+2026-03-14 03:33:31.937 [info] Session stored {"accountId":"account_1"}
+2026-03-14 03:33:39.770 [info] Apollo search payload built {"filters":["person_titles","person_locations"]}
+2026-03-14 03:33:40.923 [warn] Could not parse lead count {"keys":["breadcrumbs","pipeline_total","faceting","has_join","num_fetch_result"]}
+2026-03-14 03:33:40.924 [error] Lead count request failed Lead count not found in Apollo response {"requestId":"a3b39902-4542-4c08-a6e5-ce8c9378d366"}
+2026-03-14 03:33:40.925 [info] Request completed {"method":"POST","path":"/leads/count","status":500,"latencyMs":1159,"requestId":"a3b39902-4542-4c08-a6e5-ce8c9378d366"}
+2026-03-14 03:34:48.706 [info] Apollo search payload built {"filters":["person_titles","person_locations"]}
+2026-03-14 03:34:49.954 [warn] Could not parse lead count {"keys":["breadcrumbs","pipeline_total","faceting","has_join","num_fetch_result"]}
+2026-03-14 03:34:49.955 [error] Lead count request failed Lead count not found in Apollo response {"requestId":"80eb21db-6f11-46cd-ad59-1c3afe68c695"}
+2026-03-14 03:34:49.956 [info] Request completed {"method":"POST","path":"/leads/count","status":500,"latencyMs":1250,"requestId":"80eb21db-6f11-46cd-ad59-1c3afe68c695"}
+2026-03-14 03:34:52.260 [info] Apollo search payload built {"filters":["person_titles","person_locations"]}
+2026-03-14 03:34:53.205 [warn] Could not parse lead count {"keys":["breadcrumbs","pipeline_total","faceting","has_join","num_fetch_result"]}
+2026-03-14 03:34:53.206 [error] Lead count request failed Lead count not found in Apollo response {"requestId":"6423e487-ac69-4769-bd70-7f8758ec81d8"}
+2026-03-14 03:34:53.206 [info] Request completed {"method":"POST","path":"/leads/count","status":500,"latencyMs":946,"requestId":"6423e487-ac69-4769-bd70-7f8758ec81d8"}
+2026-03-14 03:36:26.049 [info] Apollo search payload built {"filters":["person_titles","person_locations"]}
+2026-03-14 03:36:27.246 [warn] Could not parse lead count {"keys":["breadcrumbs","pipeline_total","faceting","has_join","num_fetch_result"]}
+2026-03-14 03:36:27.247 [error] Lead count request failed Lead count not found in Apollo response {"requestId":"dd3be527-dc36-4fe7-9e8e-182d49429b28"}
+2026-03-14 03:36:27.248 [info] Request completed {"method":"POST","path":"/leads/count","status":500,"latencyMs":1200,"requestId":"dd3be527-dc36-4fe7-9e8e-182d49429b28"}
+2026-03-14 03:36:44.626 [info] Apollo search payload built {"filters":["person_titles","person_locations"]}
+2026-03-14 03:36:45.056 [warn] Could not parse lead count {"keys":["breadcrumbs","pipeline_total","faceting","has_join","num_fetch_result"]}
+2026-03-14 03:36:45.056 [error] Lead count request failed Lead count not found in Apollo response {"requestId":"a2253aa3-0cd9-43cb-938c-4a54a2110989"}
+2026-03-14 03:36:45.058 [info] Request completed {"method":"POST","path":"/leads/count","status":500,"latencyMs":432,"requestId":"a2253aa3-0cd9-43cb-938c-4a54a2110989"}
+2026-03-14 03:36:51.393 [info] Apollo search payload built {"filters":["person_titles","person_locations"]}
+2026-03-14 03:36:51.864 [warn] Could not parse lead count {"keys":["breadcrumbs","pipeline_total","faceting","has_join","num_fetch_result"]}
+2026-03-14 03:36:51.865 [error] Lead count request failed Lead count not found in Apollo response {"requestId":"f85717e2-7200-45f7-9e4a-bee23ff81080"}
+2026-03-14 03:36:51.865 [info] Request completed {"method":"POST","path":"/leads/count","status":500,"latencyMs":472,"requestId":"f85717e2-7200-45f7-9e4a-bee23ff81080"}
+2026-03-14 03:39:51.275 [info] Apollo search payload built {"filters":["person_titles","person_locations"]}
+2026-03-14 03:39:51.739 [warn] Could not parse lead count {"keys":["breadcrumbs","pipeline_total","faceting","has_join","num_fetch_result"]}
+2026-03-14 03:39:51.740 [error] Lead count request failed Lead count not found in Apollo response {"requestId":"83266bcb-390e-45d3-9f96-d51a6407e5b4"}
+2026-03-14 03:39:51.741 [info] Request completed {"method":"POST","path":"/leads/count","status":500,"latencyMs":467,"requestId":"83266bcb-390e-45d3-9f96-d51a6407e5b4"}
+2026-03-14 03:41:34.347 [info] Apollo search payload built {"filters":["person_titles","person_locations"]}
+2026-03-14 03:41:35.501 [warn] Could not parse lead count {"keys":["breadcrumbs","pipeline_total","faceting","has_join","num_fetch_result"]}
+2026-03-14 03:41:35.502 [error] Lead count request failed Lead count not found in Apollo response {"requestId":"c822a06d-7953-4c61-81fa-b3b24eec9a43"}
+2026-03-14 03:41:35.503 [info] Request completed {"method":"POST","path":"/leads/count","status":500,"latencyMs":1157,"requestId":"c822a06d-7953-4c61-81fa-b3b24eec9a43"}
+2026-03-14 03:41:56.157 [info] Apollo search payload built {"filters":["person_titles","person_not_titles","person_locations","included_organization_keyword_fields","excluded_organization_keyword_fields","q_organization_keyword_tags","q_not_organization_keyword_tags","market_segments"]}
+2026-03-14 03:41:58.246 [warn] Could not parse lead count {"keys":["breadcrumbs","pipeline_total","faceting","has_join","num_fetch_result"]}
+2026-03-14 03:41:58.246 [error] Lead count request failed Lead count not found in Apollo response {"requestId":"131513f1-6df9-4887-b728-f551de024d82"}
+2026-03-14 03:41:58.247 [info] Request completed {"method":"POST","path":"/leads/count","status":500,"latencyMs":2091,"requestId":"131513f1-6df9-4887-b728-f551de024d82"}
+2026-03-14 03:42:53.670 [info] Apollo search payload built {"filters":["person_titles","person_not_titles","person_locations","included_organization_keyword_fields","excluded_organization_keyword_fields","q_organization_keyword_tags","q_not_organization_keyword_tags","market_segments"]}
+2026-03-14 03:42:54.454 [warn] Could not parse lead count {"keys":["breadcrumbs","pipeline_total","faceting","has_join","num_fetch_result"]}
+2026-03-14 03:42:54.455 [error] Lead count request failed Lead count not found in Apollo response {"requestId":"c4253f8c-9d8c-4738-b495-d2ed40401972"}
+2026-03-14 03:42:54.456 [info] Request completed {"method":"POST","path":"/leads/count","status":500,"latencyMs":788,"requestId":"c4253f8c-9d8c-4738-b495-d2ed40401972"}
+2026-03-14 03:43:08.091 [info] Apollo search payload built {"filters":["person_titles","person_not_titles","person_locations","included_organization_keyword_fields","excluded_organization_keyword_fields","q_organization_keyword_tags","q_not_organization_keyword_tags","market_segments"]}
+2026-03-14 03:43:09.447 [warn] Could not parse lead count {"keys":["breadcrumbs","pipeline_total","faceting","has_join","num_fetch_result"]}
+2026-03-14 03:43:09.447 [error] Lead count request failed Lead count not found in Apollo response {"requestId":"4a4def8c-aaae-43a7-98a8-faa7ce563bfe"}
+2026-03-14 03:43:09.448 [info] Request completed {"method":"POST","path":"/leads/count","status":500,"latencyMs":1358,"requestId":"4a4def8c-aaae-43a7-98a8-faa7ce563bfe"}
+2026-03-14 03:44:47.169 [info] Initialising session manager...
+2026-03-14 03:44:47.171 [info] SessionManager: loaded 1 account(s)
+2026-03-14 03:44:47.172 [info] Starting Apollo login via Playwright {"accountId":"account_1"}
+2026-03-14 03:44:47.176 [info] Apollo API service listening on port 3000
+2026-03-14 03:44:48.302 [info] Step 1: Loading login page
+2026-03-14 03:44:50.804 [info] 🔀 Nav {"url":"https://app.apollo.io/#/login"}
+2026-03-14 03:45:10.074 [info] 📸 01-login-loaded {"url":"https://app.apollo.io/#/login"}
+2026-03-14 03:45:10.074 [info] Step 2: Filling form
+2026-03-14 03:45:13.847 [info] 📸 02-form-filled {"url":"https://app.apollo.io/#/login"}
+2026-03-14 03:45:13.847 [info] Step 3: Clicking Log In
+2026-03-14 03:45:13.874 [info] JS click result {"clicked":true}
+2026-03-14 03:45:15.875 [info] Still on login — trying Enter key
+2026-03-14 03:45:16.248 [info] 🔀 Nav {"url":"https://app.apollo.io/#/"}
+2026-03-14 03:45:16.277 [info] 🔀 Nav {"url":"https://app.apollo.io/#/control-center"}
+2026-03-14 03:45:16.279 [info] 🔀 Nav {"url":"https://app.apollo.io/#/home"}
+2026-03-14 03:45:17.884 [info] After all click attempts {"url":"https://app.apollo.io/#/home"}
+2026-03-14 03:45:17.884 [info] Login clicked — Cloudflare challenge may run for 30-60s, DO NOT interrupt
+2026-03-14 03:45:17.884 [info] Step 4: Waiting for post-login navigation (up to 3 min)...
+2026-03-14 03:45:17.885 [warn] No redirect after 3 min — checking state
+2026-03-14 03:45:19.939 [info] 📸 03-after-redirect {"url":"https://app.apollo.io/#/home"}
+2026-03-14 03:45:19.942 [info] Page state {"url":"https://app.apollo.io/#/home","title":"Apollo"}
+2026-03-14 03:45:19.944 [info] OTP visible {"otpVisible":"[REDACTED]"}
+2026-03-14 03:45:19.991 [info] 📸 08-final {"url":"https://app.apollo.io/#/home"}
+2026-03-14 03:45:19.992 [info] Final state {"url":"https://app.apollo.io/#/home"}
+2026-03-14 03:45:19.993 [info] Cookies {"count":22,"keys":["dwnjrn","dwndvc","_cfuvid","__hstc","hubspotutk","__hssrc","__hssc","_cioanonid","__cf_bm","_cfuvid","_gcl_au","IDE","zp_device_id","remember_token_leadgenie_v2","app_token","ZP_LATEST_LOGIN_PRICING_VARIANT","ZP_Pricing_Split_Test_Variant","_cioid","AMP_122a93c7d9","X-CSRF-TOKEN","_leadgenie_session","__cf_bm"]}
+2026-03-14 03:45:20.495 [info] CSRF {"status":404,"hasCsrf":false}
+2026-03-14 03:45:20.515 [info] ✅ Login complete {"accountId":"account_1"}
+2026-03-14 03:45:20.572 [info] Session stored {"accountId":"account_1"}
+2026-03-14 03:47:37.971 [info] Apollo search payload built {"filters":["person_titles","person_not_titles","person_locations","included_organization_keyword_fields","excluded_organization_keyword_fields","q_organization_keyword_tags","q_not_organization_keyword_tags","market_segments","recommendation_config_id"]}
+2026-03-14 03:47:39.343 [info] Lead count retrieved {"count":14137,"accountId":"account_1"}
+2026-03-14 03:47:39.344 [info] Request completed {"method":"POST","path":"/leads/count","status":200,"latencyMs":1375,"requestId":"ec9058f6-a6a7-4518-8ab7-201496507b5f"}
+2026-03-14 03:48:51.921 [info] Apollo search payload built {"filters":["person_titles","person_not_titles","contact_email_status_v2","organization_num_employees_ranges","organization_locations","included_organization_keyword_fields","excluded_organization_keyword_fields","q_organization_keyword_tags","q_not_organization_keyword_tags","market_segments","recommendation_config_id"]}
+2026-03-14 03:48:53.196 [info] Lead count retrieved {"count":13506,"accountId":"account_1"}
+2026-03-14 03:48:53.197 [info] Request completed {"method":"POST","path":"/leads/count","status":200,"latencyMs":1277,"requestId":"47e1608d-4eda-4740-8f8c-a0ee480b9729"}

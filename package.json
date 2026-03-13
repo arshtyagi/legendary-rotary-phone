@@ -1,0 +1,25 @@
+{
+  "name": "apollo-api",
+  "version": "1.0.0",
+  "description": "High-performance Apollo.io API service with session management",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "https-proxy-agent": "^7.0.6",
+    "imapflow": "^1.0.162",
+    "node-fetch": "^3.3.2",
+    "proxy-agent": "^6.4.0",
+    "tough-cookie": "^4.1.4",
+    "uuid": "^10.0.0",
+    "winston": "^3.13.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
